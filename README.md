@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&customColorList=24&section=header" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&customColorList=12,14,16,18,20&section=header" width="100%"/>
 
 # Software Engineer and Finance Quant
 
@@ -79,7 +79,7 @@ LLM Response:        340ms
 TTS Generation:      180ms
 Total Roundtrip:     640ms
 Uptime:              99.7%
-━━━━━━━━━━━━━━━━━━━━━━���━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
 ```mermaid
@@ -246,11 +246,11 @@ Multi-tenant platform at zpos.zayup.ai with real-time operations.
 
 ## 📊 GitHub Analytics
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=azank1&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=FF8C00&icon_color=FFA500&text_color=c9d1d9)
+![](https://github-readme-stats.vercel.app/api?username=azank1&show_icons=true&theme=dark&hide_border=true&bg_color=000000&title_color=FF8C00&icon_color=FF8C00&text_color=FFA500&border_color=FF8C00)
 
-![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=azank1&theme=tokyonight&hide_border=true&background=0D1117&ring=FF8C00&fire=FFA500&currStreakLabel=c9d1d9)
+![](https://github-readme-streak-stats.herokuapp.com/?user=azank1&theme=dark&hide_border=true&background=000000&ring=FF8C00&fire=FF8C00&currStreakLabel=FFA500&sideLabels=FFA500&dates=FF8C00&stroke=FF8C00&border=FF8C00)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=azank1&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=FF8C00&text_color=c9d1d9)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=azank1&layout=compact&theme=dark&hide_border=true&bg_color=000000&title_color=FF8C00&text_color=FFA500&border_color=FF8C00)
 
 </div>
 
@@ -262,7 +262,7 @@ Multi-tenant platform at zpos.zayup.ai with real-time operations.
 
 **Email:** azanhyder49@gmail.com
 
-![](https://komarev.com/ghpvc/?username=azank1&color=FF8C00&style=flat-square&label=Profile+Views)
+![](https://komarev.com/ghpvc/?username=azank1&color=FF8C00&style=for-the-badge&label=PROFILE+VIEWS)
 
 **"Engineering intelligent systems where finance meets autonomous agents"**
 
@@ -272,6 +272,6 @@ Multi-tenant platform at zpos.zayup.ai with real-time operations.
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&customColorList=24&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&customColorList=12,14,16,18,20&section=footer" width="100%"/>
 
 </div>
