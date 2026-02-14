@@ -265,6 +265,18 @@ Multi-tenant POS platform at zpos.zayup.ai with real-time sync and inventory man
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,3,5,6&height=150&section=footer&text=&fontSize=0&fontColor=ffffff&animation=twinkling" width="100%"/>
+
+</div>
+
+<div align="center">
+
+### ✨ Footer Wave Animation
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&customColorList=24&section=footer" width="100%"/>
+
+<img src="https://capsule-render.vercel.app/api?type=wave&height=150&color=FFA500&section=footer" width="100%"/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=180&color=timeGradient&customColorList=12,14,16,18,20&section=footer&reversal=false&textBg=false" width="100%"/>
 
 </div>
