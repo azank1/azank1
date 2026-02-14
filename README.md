@@ -1,6 +1,6 @@
 <div align="center">
 
-# Software Engineer & Quantitative Finance Developer
+# Software Engineer and Finance Quant
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=700&lines=ML+%2B+Financial+Modeling+%7C+Voice+AI+Systems;Zero-Knowledge+Proofs+%7C+Smart+Contracts;Building+Intelligent+Agentic+Workflows)](https://git.io/typing-svg)
 
@@ -8,47 +8,61 @@
 
 ---
 
-## 🎯 Specialization
+## Featured Projects
 
-```python
-expertise = {
-    "core": ["Machine Learning", "Quantitative Finance", "Systems Engineering"],
-    "current_focus": [
-        "ML-driven financial indicators & trend probability models",
-        "Voice-enabled AI agent orchestration",
-        "Zero-knowledge proof protocols for decentralized finance"
-    ],
-    "engineering_philosophy": "Systems-first approach to autonomous workflows"
-}
-```
+### **MLTPI** - Machine Learning Trend Probability Indicator
+Advanced financial modeling system utilizing ensemble methods, time-series analysis, and probabilistic forecasting for market trend prediction. Implements feature engineering pipelines with technical indicators, volatility modeling, and custom ML architectures for quantitative signal generation.
+
+**ML Stack:** Supervised Learning · Feature Engineering · Time-Series Forecasting · Probabilistic Models · Signal Processing · Backtesting Frameworks
+
+**Tech:** Python · NumPy · Pandas · scikit-learn · Statistical Analysis
 
 ---
 
-## 💼 Featured Projects
+### **Voice Orchestration Platform** 🔗 [voicehelm.com](https://voicehelm.com)
+Enterprise-grade voice AI system with real-time conversational agents. Production architecture evaluating LiveKit and Pipecat runtimes for low-latency voice streaming, featuring multi-modal AI integration, conversation state management, and adaptive response generation.
 
-### 📈 **MLTPI** - Machine Learning Trend Probability Indicator
-ML-based financial modeling system for trend prediction and probability analysis  
-`Python` · `Quantitative Finance` · `TradingView Integration`
+**AI Stack:** Real-time STT/TTS · LLM Integration · Conversational AI · Multi-Agent Orchestration · Context Management · ElevenLabs API · WebRTC Streaming
 
-### 🎙️ **Volte-AI** - Voice Orchestration Engine
-Proprietary R&D voice agent architecture evaluating LiveKit and Pipecat runtimes  
-`Python` · `LiveKit` · `Pipecat` · `Real-time Audio Processing`
-
-### 🗣️ **VoiceHelm** - Enterprise Voice Agent Platform
-Production-grade voice AI system with ElevenLabs integration  
-`TypeScript` · `React` · `Vite` · `ElevenLabs API` · `Supabase` · `Tailwind CSS`
-
-### 🌐 **MetaOrcha** - AI Agent Orchestration Monorepo
-Multi-service agentic workflow system with intelligent coordination  
-`Python` · `FastAPI` · `Agent Architecture` · `Microservices`
-
-### 🔐 **zkPeer** - Zero-Knowledge P2P Protocol
-Privacy-preserving peer-to-peer transactions using ZK proofs  
-`Solidity` · `Zero-Knowledge Cryptography` · `Smart Contracts`
+**Tech:** TypeScript · React · Vite · FastAPI · Supabase · WebSockets · Audio Processing Pipelines
 
 ---
 
-## 🛠️ Tech Stack
+### **Voice R&D Engine**
+Proprietary research platform for voice agent architectures. Comparative evaluation framework for LiveKit and Pipecat runtimes, focusing on latency optimization, audio quality benchmarking, and scalable deployment patterns for production voice applications.
+
+**AI Stack:** LiveKit Runtime · Pipecat Framework · STT/TTS Optimization · Audio DSP · WebRTC · Agent State Machines
+
+**Tech:** Python · Real-time Audio Processing · Performance Profiling · Service Orchestration
+
+---
+
+### **AI Agent Orchestration System**
+Convergent platform synthesizing Web3, AI, and quantitative finance to build open economies on the web. Leverages blockchain for decentralized payment processing, cryptographic security, and distributed agent compute infrastructure. Implements LangGraph-based multi-agent coordination with LLM reasoning, TensorFlow-powered learning systems, and financial modeling engines for autonomous economic decision-making. Meta-agent architecture orchestrates specialized domains including transaction validation, market analysis, resource allocation, and cross-chain interoperability.
+
+**AI Stack:** Multi-Agent Systems · LangGraph · LLM Reasoning · TensorFlow · Reinforcement Learning · Financial Modeling · Agent Routing · Memory Management · Tool Integration · MCP Servers
+
+**Web3 Stack:** Smart Contract Integration · Decentralized Compute · Payment Rails · Cryptographic Security · On-chain/Off-chain Coordination
+
+**Tech:** Python · FastAPI · Microservices · Event-Driven Architecture · Async/Await Patterns · Blockchain APIs
+
+---
+
+### **Zero-Knowledge Peer Protocol**
+Privacy-preserving decentralized transaction system leveraging zero-knowledge cryptography for trustless peer-to-peer interactions on Ethereum. Smart contract architecture for verifiable off-chain computations.
+
+**Tech:** Solidity · Zero-Knowledge Proofs · Ethereum · Smart Contracts · Cryptographic Primitives
+
+---
+
+### **Contributed:** Restaurant POS System
+Multi-tenant point-of-sale and order management platform at zpos.zayup.ai. Full-stack TypeScript application with real-time synchronization and inventory management.
+
+**Tech:** TypeScript · React · Backend APIs · Database Design
+
+---
+
+## Tech Stack
 
 ### Machine Learning & Quantitative Finance
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -61,8 +75,8 @@ Privacy-preserving peer-to-peer transactions using ZK proofs
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![LiveKit](https://img.shields.io/badge/LiveKit-07C160?style=for-the-badge&logoColor=white)
-![ElevenLabs](https://img.shields.io/badge/ElevenLabs-000000?style=for-the-badge)
+![LangChain](https://img.shields.io/badge/🦜_LangChain-121212?style=for-the-badge)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 
 ### Blockchain & Web3
 ![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=Ethereum&logoColor=white)
@@ -73,12 +87,12 @@ Privacy-preserving peer-to-peer transactions using ZK proofs
 ### Infrastructure & Tools
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 
 ---
 
-## 📊 GitHub Analytics
+## GitHub Analytics
 
 <div align="center">
   
@@ -92,24 +106,7 @@ Privacy-preserving peer-to-peer transactions using ZK proofs
 
 ---
 
-## 🔬 Current Work
-
-```typescript
-const currentWork = {
-  role: "Software Engineer & Quant Developer",
-  focus: [
-    "ML-driven quantitative trading indicators",
-    "Voice agent orchestration systems",
-    "ZK-proof integration in DeFi protocols",
-    "Multi-agent coordination frameworks"
-  ],
-  research: "Real-time voice AI + blockchain interoperability"
-};
-```
-
----
-
-## 📫 Contact
+## Contact
 
 **Email:** azanhyder49@gmail.com
 
