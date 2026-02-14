@@ -217,7 +217,7 @@ Real-time sync | Inventory management
 
 ![](https://komarev.com/ghpvc/?username=azank1&color=FF8C00&style=for-the-badge&label=PROFILE+VIEWS)
 
-**"Engineering DAO's for an open economy of Agentic Ai"**
+**"Engineering DAO's for an open economy of automations"**
 
 </div>
 
