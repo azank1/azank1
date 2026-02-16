@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&customColorList=12,14,16,18,20&section=header" width="100%"/>
 
-# Software and Quant-Finance Engineer
+# dreamer
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF8C00&center=true&vCenter=true&width=700&lines=ML+%2B+Financial+Modeling+%7C+Voice+AI+Systems;Zero-Knowledge+Proofs+%7C+Smart+Contracts;Building+Intelligent+Agentic+Workflows)](https://git.io/typing-svg)
 
