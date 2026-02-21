@@ -15,8 +15,8 @@
 | 🧠 Machine Learning | 🎙️ Voice AI | ⛓️ Blockchain | 🤖 Agents | 📈 Quant Finance |
 |:---:|:---:|:---:|:---:|:---:|
 | **TensorFlow** | **LiveKit** | **Ethereum** | **LangGraph** | **Time-Series** |
-| **scikit-learn** | **Pipecat** | **Solidity** | **Multi-Agent** | **Probabilistic** |
-| **Deep Learning** | **STT/TTS** | **ZK Proofs** | **Orchestration** | **Signal Gen** |
+| **scikit-learn** | **Pipecat** | **Solidity** | **Multi-Agent** | **Probabalistic Trend** |
+| **Deep Learning** | **STT/TTS** | **ZK Proofs** | **Orchestration** | **ML-techniques/training** |
 
 </div>
 
@@ -89,8 +89,8 @@
 <tr>
 <td align="center" width="50%">
 
-### **MLTPI**
-**Machine Learning Trend Probability Indicator**
+### **ML-Probabalistic Trend Indicator**
+**Machine Learning Probabalistic Trend-Following System**
 
 Ensemble-based quant system with probabilistic forecasting
 
