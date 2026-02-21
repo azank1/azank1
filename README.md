@@ -141,7 +141,7 @@ LiveKit: 145ms | Pipecat: 178ms
 </td>
 <td align="center" width="50%">
 
-### **AI Agent Orchestration**
+### **Agent Orchestration**
 **Meta-Agent Economic Platform**
 
 Web3 + AI + Quant Finance convergence
