@@ -4,7 +4,7 @@
 
 # dreamer
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF8C00&center=true&vCenter=true&width=700&lines=Machine+Learning+%2B+Quantitative+Finance+%7C+Agent+Orchestration;ZK+Proofs+%7C+Ethereum+Hardhat;)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF8C00&center=true&vCenter=true&width=700&lines=Machine+Learning+%2B+Quantitative+Finance;Agent+Orchestration;ZK+Proofs+%7C+Ethereum+Hardhat;)](https://git.io/typing-svg)
 
 </div>
 
