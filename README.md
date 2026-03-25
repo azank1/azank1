@@ -77,7 +77,7 @@
 
 ![](https://komarev.com/ghpvc/?username=azank1&color=FF8C00&style=for-the-badge&label=PROFILE+VIEWS)
 
-**"-Engineering a DAO Agentic web Economy"**
+**"-Engineering the Open Agentic Web Economy"**
 
 </div>
 
