@@ -20,9 +20,7 @@
 <tr>
 <td align="center" width="25%">
 
-**ML & QuantFinance**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
@@ -30,7 +28,6 @@
 </td>
 <td align="center" width="25%">
 
-**AI Agents**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=pink)
 ![LangChain](https://img.shields.io/badge/🦜_LangChain-121212?style=for-the-badge)
@@ -40,7 +37,6 @@
 <tr>
 <td align="center" width="25%">
 
-**Web3**
 
 ![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=Ethereum&logoColor=white)
 ![Solidity](https://img.shields.io/badge/Solidity-e6e6e6?style=for-the-badge&logo=solidity&logoColor=black)
@@ -50,7 +46,6 @@
 </td>
 <td align="center" width="25%">
 
-**Infrastructure**
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
@@ -83,7 +78,7 @@
 
 ![](https://komarev.com/ghpvc/?username=azank1&color=FF8C00&style=for-the-badge&label=PROFILE+VIEWS)
 
-**"Engineering DAO's and Agentic AI"**
+**"-Engineering a DAO Agentic web Economy"**
 
 </div>
 
