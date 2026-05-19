@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&customColorList=12,14,16,18,20&section=header" width="100%"/>
 
-# dreamer
+# up
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF8C00&center=true&vCenter=true&width=700&lines=Machine+Learning+%2B+Quantitative+Finance;Agent+Orchestration;ZK+Proofs+%2B+Ethereum+Hardhat;)](https://git.io/typing-svg)
 
