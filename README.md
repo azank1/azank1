@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&customColorList=12,14,16,18,20&section=header" width="100%"/>
 
-# blackbox allergy
+# its all relative
 
 > **Imposter syndrome is real.**
 </div>
