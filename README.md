@@ -4,8 +4,7 @@
 
 # building in the gap
 
-> **Imposter syndrome is real. Low confidence, possibly high competency. Ideas ahead of their time—understood too late.** But that's where the best work happens: at the intersection of doubt and vision.
-
+> **Imposter syndrome is real.
 </div>
 
 ---
