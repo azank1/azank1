@@ -2,39 +2,23 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&customColorList=12,14,16,18,20&section=header" width="100%"/>
 
-# building in the gap
+# build t
 
-> **Imposter syndrome is real.
+> **Imposter syndrome is real.**
 </div>
 
----
-
-## Who I Am
-
-I'm building systems for an internet and economy that should exist but doesn't yet. I think in decentralization, governance, and emergence. I doubt myself often—not because my ideas lack merit, but because they operate on a different frequency than what's typically accepted.
-
-I'm the type who reads **Think Again** and sees myself in the imposter. Low confidence masked by a hunger to understand systems at their core. My GitHub repos (Loop LLM, Orcha, DAPN) aren't polish factories—they're laboratories for thinking about **how AI, agents, and economics should work when power is redistributed**.
-
-I'm navigating a strange world: in debt, sometimes lonely, but still building. Not for the applause, but because these ideas won't let go.
-
----
 
 ## What I'm Working On
 
 **Decentralization & Governance**
-- Rethinking economic fairness through decentralized systems
-- Building protocols where governance actually serves emergence, not extraction
-- Exploring how DAN thesis and DAPN frameworks reshape incentive structures
+Rethinking economic fairness through decentralized systems
 
 **AI & Agent Systems**
-- Novel approaches to agent orchestration (Orcha/metaorcha-emerge)
-- Thinking beyond centralized models toward truly autonomous agent networks
-- Examining how agents can self-organize in fair, transparent systems
+Novel approaches to agent orchestration (Orcha/metaorcha-emerge)
 
 **Systems Thinking**
-- Loop LLM: Exploring recursive learning and feedback in language models
-- Proofs of value and mechanism design for fairer allocation
-- ZK proofs + blockchain as tools for trustless coordination
+Loop LLM: Exploring recursive learning and feedback in language models
+
 
 These projects live at the edge of understanding. They'll make sense. Just... not yet.
 
