@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&customColorList=12,14,16,18,20&section=header" width="100%"/>
 
-# build t
+# blackbox allergy
 
 > **Imposter syndrome is real.**
 </div>
@@ -14,7 +14,7 @@
 Rethinking economic fairness through decentralized systems
 
 **AI & Agent Systems**
-Novel approaches to agent orchestration (Orcha/metaorcha-emerge)
+Novel approaches to agent orchestration
 
 **Systems Thinking**
 Loop LLM: Exploring recursive learning and feedback in language models
