@@ -4,7 +4,7 @@
 
 # its all relative
 
-> **Imposter syndrome is real.**
+> **Imposter syndrome**
 </div>
 
 
