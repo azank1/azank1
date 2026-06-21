@@ -2,17 +2,48 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&customColorList=12,14,16,18,20&section=header" width="100%"/>
 
-# imposter syndrome
+# building in the gap
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF8C00&center=true&vCenter=true&width=700&lines=Machine+Learning+%2B+Quantitative+Finance;Agent+Orchestration;ZK+Proofs+%2B+Ethereum+Hardhat;)](https://git.io/typing-svg)
+> **Imposter syndrome is real. Low confidence, possibly high competency. Ideas ahead of their time—understood too late.** But that's where the best work happens: at the intersection of doubt and vision.
 
 </div>
 
 ---
 
+## Who I Am
+
+I'm building systems for an internet and economy that should exist but doesn't yet. I think in decentralization, governance, and emergence. I doubt myself often—not because my ideas lack merit, but because they operate on a different frequency than what's typically accepted.
+
+I'm the type who reads **Think Again** and sees myself in the imposter. Low confidence masked by a hunger to understand systems at their core. My GitHub repos (Loop LLM, Orcha, DAPN) aren't polish factories—they're laboratories for thinking about **how AI, agents, and economics should work when power is redistributed**.
+
+I'm navigating a strange world: in debt, sometimes lonely, but still building. Not for the applause, but because these ideas won't let go.
+
+---
+
+## What I'm Working On
+
+**Decentralization & Governance**
+- Rethinking economic fairness through decentralized systems
+- Building protocols where governance actually serves emergence, not extraction
+- Exploring how DAN thesis and DAPN frameworks reshape incentive structures
+
+**AI & Agent Systems**
+- Novel approaches to agent orchestration (Orcha/metaorcha-emerge)
+- Thinking beyond centralized models toward truly autonomous agent networks
+- Examining how agents can self-organize in fair, transparent systems
+
+**Systems Thinking**
+- Loop LLM: Exploring recursive learning and feedback in language models
+- Proofs of value and mechanism design for fairer allocation
+- ZK proofs + blockchain as tools for trustless coordination
+
+These projects live at the edge of understanding. They'll make sense. Just... not yet.
+
+---
+
 <div align="center">
 
-##  Tech 
+##  Core Tools
 
 </div>
 
@@ -27,7 +58,6 @@
 </td>
 <td align="center" width="25%">
 
-
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=pink)
 ![LangChain](https://img.shields.io/badge/🦜_LangChain-121212?style=for-the-badge)
 
@@ -36,7 +66,6 @@
 <tr>
 <td align="center" width="25%">
 
-
 ![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=Ethereum&logoColor=white)
 ![Solidity](https://img.shields.io/badge/Solidity-e6e6e6?style=for-the-badge&logo=solidity&logoColor=black)
 ![Hardhat](https://img.shields.io/badge/Hardhat-FFF100?style=for-the-badge&logoColor=black)
@@ -44,7 +73,6 @@
 
 </td>
 <td align="center" width="25%">
-
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
@@ -71,13 +99,17 @@
 
 <div align="center">
 
-## 📫 Contact
+## Let's Build Together
+
+I'm looking for collaborators who see the gap between how systems *are* and how they *should be*. If you're thinking about decentralization, agent systems, or fair economies—let's talk.
 
 **Email:** azanhyder49@gmail.com
 
 ![](https://komarev.com/ghpvc/?username=azank1&color=FF8C00&style=for-the-badge&label=PROFILE+VIEWS)
 
-**"-Engineering the Open Agentic Web Economy"**
+---
+
+*"Ideas ahead of their time are often dismissed as noise. I'm building in that space."*
 
 </div>
 
