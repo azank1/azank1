@@ -84,7 +84,7 @@ These projects live at the edge of understanding. They'll make sense. Just... no
 
 ## Let's Build Together
 
-I'm looking for collaborators who see the gap between how systems *are* and how they *should be*. If you're thinking about decentralization, agent systems, or fair economies—let's talk.
+I'm looking for collaborators who see the gap between how systems *are* and how they *should be*. If you're thinking about decentralization, agent systems, or fair economies, let's talk.
 
 **Email:** azanhyder49@gmail.com
 
