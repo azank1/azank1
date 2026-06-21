@@ -20,7 +20,7 @@ Novel approaches to agent orchestration
 Loop LLM: Exploring recursive learning and feedback in language models
 
 
-These projects live at the edge of understanding. They'll make sense. Just... not yet.
+These projects live at the edge of understanding. They'll make sense... not yet.
 
 ---
 
@@ -92,7 +92,7 @@ I'm looking for collaborators who see the gap between how systems *are* and how 
 
 ---
 
-*"Ideas ahead of their time are often dismissed as noise. I'm building in that space."*
+*"If you're not failing, you're not innovating enough."*
 
 </div>
 
