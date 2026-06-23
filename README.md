@@ -17,10 +17,10 @@ Rethinking economic fairness through decentralized systems
 Novel approaches to agent orchestration
 
 **Systems Thinking**
-Loop LLM: Exploring recursive learning and feedback in language models
+Loop engineering and Exploring recursive learning and feedback in language models
 
 
-These projects live at the edge of understanding. They'll make sense... not yet.
+These projects live at the edge of research and innovation, not sure where this ends up but its worth it...
 
 ---
 
