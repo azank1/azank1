@@ -2,9 +2,9 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&customColorList=12,14,16,18,20&section=header" width="100%"/>
 
-# its all relative
 
-> **Imposter syndrome**
+
+> **Its all relative**
 </div>
 
 
