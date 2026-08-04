@@ -4,7 +4,7 @@
 
 
 
-> **Its all relative**
+> **It's all relative**
 </div>
 
 
@@ -14,13 +14,13 @@
 Rethinking economic fairness through decentralized systems
 
 **AI & Agent Systems**
-Novel approaches to agent orchestration
+Multi-protocol agent orchestration, MCP tool ecosystems, and hybrid-retrieval RAG
 
 **Systems Thinking**
-Loop engineering and Exploring recursive learning and feedback in language models
+Loop engineering — verification loops and recursive feedback in language models
 
 
-These projects live at the edge of research and innovation, not sure where this ends up but its worth it...
+These projects live at the edge of research and innovation.
 
 ---
 
@@ -37,12 +37,17 @@ These projects live at the edge of research and innovation, not sure where this 
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langgraph&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-000000?style=for-the-badge&logo=modelcontextprotocol&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 
 </td>
 <td align="center" width="25%">
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=pink)
-![LangChain](https://img.shields.io/badge/🦜_LangChain-121212?style=for-the-badge)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
 </td>
 </tr>
@@ -59,6 +64,7 @@ These projects live at the edge of research and innovation, not sure where this 
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 
 </td>
 </tr>
@@ -70,11 +76,11 @@ These projects live at the edge of research and innovation, not sure where this 
 
 ## 📊 GitHub Analytics
 
-![](https://github-readme-stats.vercel.app/api?username=azank1&show_icons=true&theme=dark&hide_border=true&bg_color=000000&title_color=FF8C00&icon_color=FF8C00&text_color=FFA500&border_color=FF8C00)
+![GitHub stats](https://github-readme-stats-sigma-five.vercel.app/api?username=azank1&show_icons=true&theme=dark&hide_border=true&bg_color=000000&title_color=FF8C00&icon_color=FF8C00&text_color=FFA500&border_color=FF8C00)
 
-![](https://github-readme-streak-stats.herokuapp.com/?user=azank1&theme=dark&hide_border=true&background=000000&ring=FF8C00&fire=FF8C00&currStreakLabel=FFA500&sideLabels=FFA500&dates=FF8C00&stroke=FF8C00&border=FF8C00)
+![GitHub streak stats](https://streak-stats.demolab.com/?user=azank1&theme=dark&hide_border=true&background=000000&ring=FF8C00&fire=FF8C00&currStreakLabel=FFA500&sideLabels=FFA500&dates=FF8C00&stroke=FF8C00&border=FF8C00)
 
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=azank1&layout=compact&theme=dark&hide_border=true&bg_color=000000&title_color=FF8C00&text_color=FFA500&border_color=FF8C00)
+![Top languages](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=azank1&layout=compact&theme=dark&hide_border=true&bg_color=000000&title_color=FF8C00&text_color=FFA500&border_color=FF8C00)
 
 </div>
 
@@ -87,8 +93,6 @@ These projects live at the edge of research and innovation, not sure where this 
 I'm looking for collaborators who see the gap between how systems *are* and how they *should be*. If you're thinking about decentralization, agent systems, or fair economies, let's talk.
 
 **Email:** azanhyder49@gmail.com
-
-![](https://komarev.com/ghpvc/?username=azank1&color=FF8C00&style=for-the-badge&label=PROFILE+VIEWS)
 
 ---
 
