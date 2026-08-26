@@ -53,19 +53,10 @@ measurable, inspectable, and useful beyond the demo.
 ![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=flat-square&logo=ethereum&logoColor=white)
 ![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
 
-## Activity snapshot
-
-As of August 2026: 1.87k contributions in the last year, 21 public repositories,
-21 stars, 534 commits, 38 pull requests, 11 issues, and contributions to 24
-repositories. Python, TypeScript, and HTML lead by public repository count.
-
 <div align="center">
 
 <a href="https://github.com/azank1?tab=repositories">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=azank1&theme=github_dark" width="100%" alt="Public repository count by primary language" />
-</a>
-<a href="https://github.com/azank1">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=azank1&theme=github_dark" width="100%" alt="GitHub profile statistics" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=azank1&theme=github_dark" width="400" alt="Public repositories by language" />
 </a>
 
 </div>
