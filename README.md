@@ -2,7 +2,6 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=140&color=gradient&customColorList=12,14,16,18,20&section=header" width="100%" alt="" />
 
-# Azan Hyder
 
 ## Building verification-first AI, decentralized systems, and quantitative tools
 
