@@ -61,10 +61,6 @@ repositories. Python, TypeScript, and HTML lead by public repository count.
 
 <div align="center">
 
-<a href="https://github.com/azank1">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=azank1&theme=github_dark" width="100%" alt="Azan Hyder's GitHub profile and recent contribution summary" />
-</a>
-
 <a href="https://github.com/azank1?tab=repositories">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=azank1&theme=github_dark" width="100%" alt="Public repository count by primary language" />
 </a>
