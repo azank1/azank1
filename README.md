@@ -2,29 +2,34 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=140&color=gradient&customColorList=12,14,16,18,20&section=header" width="100%" alt="" />
 
+## Building verification-first AI, decentralized systems, and quantitative tools
 
-## Core focus: [Metaorcha](https://metaorcha.ai)
+I turn research questions into working software, with a focus on systems that are
+measurable, inspectable, and useful beyond the demo.
 
-**Many models. One harness.**
-
-Right now I am building [Orcha](https://github.com/solvent-labs-org/metaorcha), the open Apache 2.0 runtime behind Metaorcha: one goal in, a verified multi-agent run out across MCP, A2A, and Computer-Use, with an audit trail you can read.
-
-Models keep converging. Trust still has to be engineered. That is the work.
-
-[![metaorcha.ai](https://img.shields.io/badge/metaorcha.ai-111827?style=flat-square&logo=googlechrome&logoColor=white)](https://metaorcha.ai)
-[![GitHub](https://img.shields.io/badge/solvent--labs--org%2Fmetaorcha-181717?style=flat-square&logo=github)](https://github.com/solvent-labs-org/metaorcha)
+[![Website](https://img.shields.io/badge/metaorcha.ai-111827?style=flat-square&logo=googlechrome&logoColor=white)](https://metaorcha.ai)
 [![Email](https://img.shields.io/badge/Email-azanhyder49%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:azanhyder49@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-azank1-181717?style=flat-square&logo=github)](https://github.com/azank1)
 
 </div>
 
-## Also building
+## Core focus
 
-- **AI and agent systems** — verification loops, MCP tool ecosystems, and evaluation methods that make agent runs inspectable.
-- **Decentralized systems** — experiments in governance, trust-minimized exchange, and fairer economic coordination.
-- **Quantitative research tools** — probabilistic models and backtesting systems that keep assumptions visible.
+**[Metaorcha](https://metaorcha.ai)** — many models, one harness. Building [Orcha](https://github.com/solvent-labs-org/metaorcha), an Apache 2.0 runtime where one goal becomes a verified multi-agent run across MCP, A2A, and Computer-Use.
 
-## Other work
+- **Now** — v1 runtime: multiprotocol orchestration, shipping locally
+- **Next** — v1.2 harness: DAG execution, output verification, retry and fallback
+- **Aim** — network layer: peer discovery, fulfillment, reputation
 
+## What I build
+
+- **AI and agent systems** — agent orchestration, MCP tool ecosystems, retrieval, and verification loops for more dependable model behavior.
+- **Decentralized systems** — experiments in governance, trust-minimized exchange, zero-knowledge proofs, and fairer economic coordination.
+- **Quantitative research tools** — probabilistic models, backtesting systems, and analysis software that make assumptions visible.
+
+## Selected work
+
+- [**Metaorcha**](https://github.com/solvent-labs-org/metaorcha) — Apache 2.0 runtime for multi-protocol agent orchestration. [`metaorcha.ai`](https://metaorcha.ai) `Python` `Agents`
 - [**CDV**](https://github.com/azank1/cdv) — a frozen public research preview for judging AI-agent work with a deterministic floor, an LLM critic, and Bayesian stopping. `Python` `LLM evaluation`
 - [**ML Trend Probability**](https://github.com/azank1/ML-ProbabalisticTrend) — a machine-learning signal framework that tunes and stacks trading indicators into a trend-probability strategy. `Python` `ML` `Quant`
 - [**SDCA RAQQR**](https://github.com/azank1/sdca-raqqr) — a Bitcoin market-risk model and backtesting library for accumulation and distribution strategies. `Python` `Quant research`
@@ -65,8 +70,8 @@ Models keep converging. Trust still has to be engineered. That is the work.
 
 ## Let's build together
 
-Most of my attention is on Metaorcha. If you are working on agent runtimes,
-protocol bridges, or verification, [open an issue](https://github.com/solvent-labs-org/metaorcha)
+If you are working on agent runtimes, protocol bridges, or verification,
+[open an issue on Metaorcha](https://github.com/solvent-labs-org/metaorcha)
 or [send me an email](mailto:azanhyder49@gmail.com).
 
 <div align="center">
