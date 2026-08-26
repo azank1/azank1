@@ -22,10 +22,10 @@ measurable, inspectable, and useful beyond the demo.
 
 ## Selected work
 
+- [**Metaorcha**](https://github.com/solvent-labs-org/metaorcha) — Apache 2.0 runtime for multi-protocol agent orchestration: one goal in, a verified multi-agent run out across MCP, A2A, and Computer-Use. [`metaorcha.ai`](https://metaorcha.ai) `Python` `Agents`
 - [**CDV**](https://github.com/azank1/cdv) — a frozen public research preview for judging AI-agent work with a deterministic floor, an LLM critic, and Bayesian stopping. `Python` `LLM evaluation`
+- [**ML Trend Probability**](https://github.com/azank1/ML-ProbabalisticTrend) — a machine-learning signal framework that tunes and stacks trading indicators into a trend-probability strategy. `Python` `ML` `Quant`
 - [**SDCA RAQQR**](https://github.com/azank1/sdca-raqqr) — a Bitcoin market-risk model and backtesting library for accumulation and distribution strategies. `Python` `Quant research`
-- [**Tahlil al-Nass**](https://github.com/azank1/tahlil-al-nass) — an early-stage computational linguistics prototype for exploring structural, lexical, and semantic patterns in Quranic text. `Python` `NLP` `Statistics`
-- [**Notion MCP**](https://github.com/azank1/notion-mcp) — an MVP Model Context Protocol server that currently lets AI assistants create Notion pages. `TypeScript` `MCP`
 
 ## Capabilities
 
