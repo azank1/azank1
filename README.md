@@ -62,9 +62,13 @@ measurable, inspectable, and useful beyond the demo.
 
 <div align="center">
 
-<a href="https://github.com/azank1?tab=repositories">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=azank1&theme=github_dark" width="400" alt="Public repositories by language" />
-</a>
+**Core languages**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
+![Shell](https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 
 </div>
 
