@@ -4,8 +4,7 @@
 
 ## Building verification-first AI, decentralized systems, and quantitative tools
 
-I turn research questions into working software, with a focus on systems that are
-measurable, inspectable, and useful beyond the demo.
+Imposter syndrome 
 
 [![Website](https://img.shields.io/badge/metaorcha.ai-111827?style=flat-square&logo=googlechrome&logoColor=white)](https://metaorcha.ai)
 [![Email](https://img.shields.io/badge/Email-azanhyder49%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:azanhyder49@gmail.com)
