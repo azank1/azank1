@@ -12,26 +12,12 @@ Imposter syndrome
 
 </div>
 
-## Core focus
-
-**[Metaorcha](https://metaorcha.ai)** — many models, one harness. Building [Orcha](https://github.com/solvent-labs-org/metaorcha), an Apache 2.0 runtime where one goal becomes a verified multi-agent run across MCP, A2A, and Computer-Use.
-
-- **Now** — v1 runtime: multiprotocol orchestration, shipping locally
-- **Next** — v1.2 harness: DAG execution, output verification, retry and fallback
-- **Aim** — network layer: peer discovery, fulfillment, reputation
 
 ## What I build
 
 - **AI and agent systems** — agent orchestration, MCP tool ecosystems, retrieval, and verification loops for more dependable model behavior.
 - **Decentralized systems** — experiments in governance, trust-minimized exchange, zero-knowledge proofs, and fairer economic coordination.
 - **Quantitative research tools** — probabilistic models, backtesting systems, and analysis software that make assumptions visible.
-
-## Selected work
-
-- [**Metaorcha**](https://github.com/solvent-labs-org/metaorcha) — Apache 2.0 runtime for multi-protocol agent orchestration. [`metaorcha.ai`](https://metaorcha.ai) `Python` `Agents`
-- [**CDV**](https://github.com/azank1/cdv) — a frozen public research preview for judging AI-agent work with a deterministic floor, an LLM critic, and Bayesian stopping. `Python` `LLM evaluation`
-- [**ML Trend Probability**](https://github.com/azank1/ML-ProbabalisticTrend) — a machine-learning signal framework that tunes and stacks trading indicators into a trend-probability strategy. `Python` `ML` `Quant`
-- [**SDCA RAQQR**](https://github.com/azank1/sdca-raqqr) — a Bitcoin market-risk model and backtesting library for accumulation and distribution strategies. `Python` `Quant research`
 
 ## Capabilities
 
