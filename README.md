@@ -4,6 +4,8 @@
 
 ## Building verification-first AI, decentralized systems, and quantitative tools
 
+I turn research questions into working software, with a focus on systems that are
+measurable, inspectable, and useful beyond the demo.
 
 [![Website](https://img.shields.io/badge/metaorcha.ai-111827?style=flat-square&logo=googlechrome&logoColor=white)](https://metaorcha.ai)
 [![Email](https://img.shields.io/badge/Email-azanhyder49%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:azanhyder49@gmail.com)
@@ -11,12 +13,77 @@
 
 </div>
 
+---
+
+## Core focus
+
+**[Metaorcha](https://metaorcha.ai)** — many models, one harness. Building [Orcha](https://github.com/solvent-labs-org/metaorcha), an Apache 2.0 runtime where one goal becomes a verified multi-agent run across MCP, A2A, and Computer-Use.
+
+| Stage | Milestone |
+|---|---|
+| 🟢 **Now** | v1 runtime: multiprotocol orchestration, shipping locally |
+| 🟡 **Next** | v1.2 harness: DAG execution, output verification, retry and fallback |
+| 🔵 **Aim** | network layer: peer discovery, fulfillment, reputation |
+
+---
 
 ## What I build
 
-- **AI and agent systems** — agent orchestration, MCP tool ecosystems, retrieval, and verification loops for more dependable model behavior.
-- **Decentralized systems** — experiments in governance, trust-minimized exchange, zero-knowledge proofs, and fairer economic coordination.
-- **Quantitative research tools** — probabilistic models, backtesting systems, and analysis software that make assumptions visible.
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <b>🤖 AI and agent systems</b><br />
+      <sub>Agent orchestration, MCP tool ecosystems, retrieval, and verification loops for more dependable model behavior.</sub>
+    </td>
+    <td width="33%" valign="top">
+      <b>🔗 Decentralized systems</b><br />
+      <sub>Experiments in governance, trust-minimized exchange, zero-knowledge proofs, and fairer economic coordination.</sub>
+    </td>
+    <td width="33%" valign="top">
+      <b>📈 Quantitative research tools</b><br />
+      <sub>Probabilistic models, backtesting systems, and analysis software that make assumptions visible.</sub>
+    </td>
+  </tr>
+</table>
+
+---
+
+## Selected work
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/solvent-labs-org/metaorcha"><b>Metaorcha</b></a> · <a href="https://metaorcha.ai"><sub>metaorcha.ai</sub></a><br />
+      <sub>Apache 2.0 runtime for multi-protocol agent orchestration.</sub><br /><br />
+      <code>Python</code> <code>Agents</code><br />
+      <img src="https://img.shields.io/github/stars/solvent-labs-org/metaorcha?style=flat-square&label=%E2%98%85&labelColor=111827&color=38bdf8" alt="Metaorcha stars" />
+      <img src="https://img.shields.io/github/last-commit/solvent-labs-org/metaorcha?style=flat-square&label=updated&labelColor=111827&color=38bdf8" alt="Metaorcha last commit" />
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/azank1/cdv"><b>CDV</b></a><br />
+      <sub>A frozen public research preview for judging AI-agent work with a deterministic floor, an LLM critic, and Bayesian stopping.</sub><br /><br />
+      <code>Python</code> <code>LLM evaluation</code><br />
+      <img src="https://img.shields.io/github/stars/azank1/cdv?style=flat-square&label=%E2%98%85&labelColor=111827&color=38bdf8" alt="CDV stars" />
+      <img src="https://img.shields.io/github/license/azank1/cdv?style=flat-square&labelColor=111827&color=38bdf8" alt="CDV license" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/azank1/ML-ProbabalisticTrend"><b>ML Trend Probability</b></a><br />
+      <sub>A machine-learning signal framework that tunes and stacks trading indicators into a trend-probability strategy.</sub><br /><br />
+      <code>Python</code> <code>ML</code> <code>Quant</code><br />
+      <img src="https://img.shields.io/github/stars/azank1/ML-ProbabalisticTrend?style=flat-square&label=%E2%98%85&labelColor=111827&color=38bdf8" alt="ML Trend Probability stars" />
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/azank1/sdca-raqqr"><b>SDCA RAQQR</b></a><br />
+      <sub>A Bitcoin market-risk model and backtesting library for accumulation and distribution strategies.</sub><br /><br />
+      <code>Python</code> <code>Quant research</code><br />
+      <img src="https://img.shields.io/github/stars/azank1/sdca-raqqr?style=flat-square&label=%E2%98%85&labelColor=111827&color=38bdf8" alt="SDCA RAQQR stars" />
+    </td>
+  </tr>
+</table>
+
+---
 
 ## Capabilities
 
@@ -56,6 +123,21 @@
 
 </div>
 
+---
+
+## Activity
+
+<div align="center">
+  <a href="https://github.com/azank1">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=azank1&hide_border=true&background=0D1117&stroke=30363d&ring=38bdf8&fire=38bdf8&currStreakLabel=38bdf8&currStreakNum=f0f6fc&sideNums=f0f6fc&sideLabels=c9d1d9&dates=8b949e" />
+      <img src="https://streak-stats.demolab.com?user=azank1&hide_border=true&background=ffffff&stroke=d0d7de&ring=0284c7&fire=0284c7&currStreakLabel=0284c7&currStreakNum=1f2328&sideNums=1f2328&sideLabels=424a53&dates=656d76" alt="GitHub streak stats for azank1: total contributions, current streak, and longest streak" height="165" />
+    </picture>
+  </a>
+</div>
+
+---
+
 ## Let's build together
 
 If you are working on agent runtimes, protocol bridges, or verification,
@@ -65,5 +147,13 @@ or [send me an email](mailto:azanhyder49@gmail.com).
 <div align="center">
 
 *"It's all relative."*
+
+<sub>
+  <a href="https://metaorcha.ai">metaorcha.ai</a> ·
+  <a href="https://github.com/solvent-labs-org/metaorcha">Orcha</a> ·
+  <a href="mailto:azanhyder49@gmail.com">Email</a>
+</sub>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&customColorList=12,14,16,18,20&section=footer" width="100%" alt="" />
 
 </div>
