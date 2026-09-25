@@ -54,7 +54,7 @@ systems that are measurable, inspectable, and useful beyond the demo.
 
 **[The Harness Layer](https://dev.to/azankhyder/series/42904)** on dev.to: research field notes on
 agent harnesses, each with sources, a limitations section and a reproducible artifact.
-Latest: [A stop rule that trusts one score is worse than a dumb budget](https://dev.to/azankhyder/a-stop-rule-that-trusts-one-score-is-worse-than-a-dumb-budget-428c)
+Latest: [When should an agent stop?](https://dev.to/azankhyder/a-stop-rule-that-trusts-one-score-is-worse-than-a-dumb-budget-428c)
 (artifact in [code-desk-cli/research](https://github.com/azank1/code-desk-cli/tree/main/research/009-stop-rule)).
 Practice pieces and short takes on [X](https://x.com/azankhyder).
 
