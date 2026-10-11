@@ -160,6 +160,26 @@ Practice pieces and short takes on [X](https://x.com/azankhyder).
 
 ---
 
+## On carving your own path
+
+**Side quests used to be what you did after work. I made them the work, and made it respectable.**
+
+The method was simple: doubt every source except my own judgment, then keep retraining how I decide
+things, scoring each move by how much it widened my exposure to lucky breaks. Run that loop long enough
+and your choices converge on the handful that actually pay off, while a small share of every attempt
+still goes to wandering on purpose.
+
+Where it led: companies with nobody on payroll, built one day at a time as my way out of a class that
+was never meant to move.
+
+If you want a path that's genuinely yours, my one piece of advice is to defend your mind like it's
+production. Trends flip. Focus erodes. Someone will always be trying to slip their narrative past your
+filters and edit your worldview for you. Don't accept the patch.
+
+**Outlast the noise and you win.**
+
+---
+
 ## Let's build together
 
 If you are working on agent runtimes, protocol bridges, or verification,
