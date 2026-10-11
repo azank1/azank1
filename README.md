@@ -1,10 +1,3 @@
-<a href="https://azanhyder-port.vercel.app">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-    <img src="assets/banner-light.svg" width="100%" alt="Azan Hyder, software systems and ops engineer. How a change moves to production: classify by blast radius, rehearse off production, prove by reading the version back, watch.">
-  </picture>
-</a>
-
 **Software engineer working on AI agents and the systems that check them.**
 I turn research questions into working software: measurable, inspectable, and useful past the demo.
 

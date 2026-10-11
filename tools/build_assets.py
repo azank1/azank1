@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Draw the profile README's banner and work cards as SVG, in a light and a dark version.
+"""Draw the profile README's work cards as SVG, in a light and a dark version.
 
 An SVG shown through <img> cannot load web fonts, so each file embeds a subset of the
 fonts holding only the characters it uses. Geist and Geist Mono are SIL OFL 1.1; take the
@@ -7,9 +7,8 @@ latin woff2 of each from Google Fonts and pass their folder:
 
     python tools/build_assets.py --fonts DIR    # DIR holds geist.woff2 and geistmono.woff2
 
-Needs fonttools and brotli. Writes assets/banner-{dark,light}.svg and
-assets/cards/<id>-{dark,light}.svg. Card copy lives in CARDS below; keep it in step
-with the portfolio (src/data/projects.ts in azank1/portfolio).
+Needs fonttools and brotli. Writes assets/cards/<id>-{dark,light}.svg. Card copy lives in
+CARDS below; keep it in step with the portfolio (src/data/projects.ts in azank1/portfolio).
 """
 
 import argparse
@@ -23,8 +22,8 @@ from fontTools.ttLib import TTFont
 from fontTools.varLib.instancer import instantiateVariableFont
 
 THEMES = {
-    'dark': dict(bg='#181818', edge='#ffffff', edge_a=0.09, ink='#e4e4e4', accent='#ff5f1f', accent_text='#ff8a50', ok='#4ade80', grid_a=0.05),
-    'light': dict(bg='#fbfbfa', edge='#171717', edge_a=0.10, ink='#171717', accent='#ff5f1f', accent_text='#c2410c', ok='#15803d', grid_a=0.06),
+    'dark': dict(bg='#181818', edge='#ffffff', edge_a=0.09, ink='#e4e4e4', accent='#ff5f1f', accent_text='#ff8a50', ok='#4ade80'),
+    'light': dict(bg='#fbfbfa', edge='#171717', edge_a=0.10, ink='#171717', accent='#ff5f1f', accent_text='#c2410c', ok='#15803d'),
 }
 
 
@@ -32,7 +31,7 @@ class Face:
     """One static weight of a font: measures text and hands out per-file subsets."""
 
     def __init__(self, path: Path, family: str, wght: int):
-        font = TTFont(path)
+        font = TTFont(path, recalcTimestamp=False)  # same input, same bytes: no build time in the font
         if 'fvar' in font:
             font = instantiateVariableFont(font, {'wght': wght}, updateFontNames=False)
         buf = io.BytesIO()
@@ -53,7 +52,7 @@ class Face:
         return units * size / self.upm + tracking * size * len(text)
 
     def woff2(self, chars: set[str]) -> str:
-        font = TTFont(io.BytesIO(self.data))
+        font = TTFont(io.BytesIO(self.data), recalcTimestamp=False)
         options = subset.Options()
         options.flavor = 'woff2'
         options.layout_features = ['kern']
@@ -75,12 +74,8 @@ class Doc:
     def __init__(self, faces: dict[str, Face], theme: dict):
         self.faces, self.t = faces, theme
         self.used: dict[str, set[str]] = {k: set() for k in faces}
-        self.parts: list[str] = []
 
-    def add(self, s: str):
-        self.parts.append(s)
-
-    def text(self, x, y, s, face='sans', size=14, fill=None, alpha=1.0, anchor='start', tracking=0.0, cls='', extra=''):
+    def text(self, x, y, s, face='sans', size=14, fill=None, alpha=1.0, anchor='start', tracking=0.0):
         self.used[face].update(s)
         f = self.faces[face]
         fam = 'G' if face.startswith('sans') else 'GM'
@@ -92,12 +87,7 @@ class Doc:
             attrs.append(f'text-anchor="{anchor}"')
         if tracking:
             attrs.append(f'letter-spacing="{tracking * size:.2f}"')
-        if cls:
-            attrs.append(f'class="{cls}"')
-        return f'<text {" ".join(attrs)}{extra}>{escape(s)}</text>'
-
-    def note_chars(self, face: str, s: str):
-        self.used[face].update(s)
+        return f'<text {" ".join(attrs)}>{escape(s)}</text>'
 
     def fonts_css(self) -> str:
         rules = []
@@ -149,110 +139,6 @@ def shell(doc: Doc, w: int, h: int, title: str, desc: str, style: str, body: str
 {body}
 </svg>
 '''
-
-
-# ---------------------------------------------------------------- banner
-
-STATIONS = [
-    ('CLASSIFY', 'by blast radius'),
-    ('REHEARSE', 'off production'),
-    ('PROVE', 'version read back'),
-    ('WATCH', 'told, not buried'),
-]
-
-
-def station_glyph(i: int) -> str:
-    """The four station marks from the portfolio's method figure, drawn around (0, 0)."""
-    if i == 0:
-        return '<circle r="3"/><circle r="7.5"/><circle r="12" stroke-opacity=".55"/>'
-    if i == 1:
-        return '<rect x="-9.5" y="-9.5" width="19" height="19" rx="3" stroke-dasharray="3 2.6"/><path d="M-2.6 -4.4 L4.4 0 L-2.6 4.4 Z" fill="currentColor"/>'
-    if i == 2:
-        return '<path d="M-8 0.5 L-2.5 6 L8.5 -5.5"/>'
-    return '<path d="M-12 0 H-6 L-3 -7.5 L1.5 7.5 L4.5 0 H12"/>'
-
-
-def banner(faces: dict[str, Face], theme: dict) -> str:
-    W, H = 1000, 320
-    doc = Doc(faces, theme)
-    t = theme
-    lane_y, x0, x1 = 228, 48, 952
-    xs = [x0 + (x1 - x0) * f for f in (0.125, 0.375, 0.625, 0.875)]
-
-    # Two changes ride the lane half a cycle apart; each pauses inside a station while it works.
-    times = '0;.08;.16;.30;.38;.52;.60;.74;.82;.92;1'
-    points = '0;.125;.125;.375;.375;.625;.625;.875;.875;1;1'
-    packets = ''.join(
-        f'<rect class="pk" x="-6" y="-6" width="12" height="12" rx="3" fill="{t["accent"]}" opacity="0">'
-        f'<animateMotion dur="8s" begin="{b}" repeatCount="indefinite" calcMode="linear" keyTimes="{times}" keyPoints="{points}" path="M{x0} {lane_y} H{x1}"/>'
-        f'<animate attributeName="opacity" dur="8s" begin="{b}" repeatCount="indefinite" values="0;1;1;0;0" keyTimes="0;.03;.9;.95;1"/>'
-        f'</rect>'
-        for b in ('0s', '-4s')
-    )
-    still = f'<rect class="pk-still" x="{(xs[1] + xs[2]) / 2 - 6:g}" y="{lane_y - 6}" width="12" height="12" rx="3" fill="{t["accent"]}"/>'
-
-    stations = []
-    for i, (x, (name, note)) in enumerate(zip(xs, STATIONS)):
-        stations.append(
-            f'<g transform="translate({x:g} {lane_y})">'
-            f'<circle r="22" fill="{t["bg"]}" stroke="{t["ink"]}" stroke-opacity=".2" stroke-width="1.5"/>'
-            f'<g class="st s{i + 1}" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">{station_glyph(i)}</g>'
-            f'</g>'
-        )
-        stations.append(doc.text(x, lane_y + 50, name, 'mono5', 12.5, alpha=0.82, anchor='middle', tracking=0.12))
-        stations.append(doc.text(x, lane_y + 69, note, 'mono', 12, alpha=0.45, anchor='middle'))
-
-    url = 'azanhyder-port.vercel.app'
-    body = f'''<defs>
-<pattern id="minor" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="{t["ink"]}" stroke-opacity="{t["grid_a"] * 0.6:.3f}"/></pattern>
-<pattern id="major" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="{t["ink"]}" stroke-opacity="{t["grid_a"]:.3f}"/></pattern>
-<radialGradient id="fade" cx="0.32" cy="0" r="0.95"><stop offset="0.3" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
-<mask id="m"><rect width="{W}" height="{H}" fill="url(#fade)"/></mask>
-<clipPath id="c"><rect x="1" y="1" width="{W - 2}" height="{H - 2}" rx="19"/></clipPath>
-</defs>
-<g clip-path="url(#c)" mask="url(#m)"><rect width="{W}" height="{H}" fill="url(#minor)"/><rect width="{W}" height="{H}" fill="url(#major)"/></g>
-<text x="48" y="64" font-family="GM" font-weight="400" font-size="15"><tspan fill="{t["ink"]}" fill-opacity=".32">// </tspan><tspan fill="{t["accent_text"]}">software systems &amp; ops engineer</tspan></text>
-{doc.text(W - 48 - 16, 64, url, 'mono', 13, alpha=0.5, anchor='end')}
-{arrow(W - 48, 55, t["ink"], 0.5)}
-<text x="44" y="140" font-family="G" font-weight="600" font-size="76" letter-spacing="-3.4" fill="{t["ink"]}">Azan Hyder<tspan class="caret" dx="10" font-weight="400" fill="{t["accent"]}">|</tspan></text>
-<path d="M{x0} {lane_y} H{x1}" stroke="{t["ink"]}" stroke-opacity=".16" stroke-width="1.5"/>
-{packets}
-{still}
-{''.join(stations)}'''
-    doc.note_chars('mono', '// software systems & ops engineer')
-    doc.note_chars('sans6', 'Azan Hyder')
-    doc.note_chars('sans', '|')
-
-    dim, hot = f'{t["ink"]}', t['accent']
-    # station i is lit while a change is inside it: [.08,.16] for the first, plus half a cycle for the second
-    windows = {1: (8, 58), 2: (30, 80), 3: (52, 2), 4: (74, 24)}
-    keyframes = []
-    for i, starts in windows.items():
-        lit, dark = [], [0, 100]
-        for s in starts:
-            lit += [s + 1, s + 7]
-            dark += [s - 1 if s >= 1 else 0, s + 9]
-        dark = sorted({d for d in dark if 0 <= d <= 100} - set(lit))
-        keyframes.append(
-            f'@keyframes s{i}{{{",".join(f"{d}%" for d in dark)}{{color:{dim};opacity:.62}}'
-            f'{",".join(f"{v}%" for v in sorted(lit))}{{color:{hot};opacity:1}}}}'
-            f'.s{i}{{animation:s{i} 8s linear infinite}}'
-        )
-    style = (
-        f'.st{{color:{dim};opacity:.62}}\n'
-        + '\n'.join(keyframes)
-        + '\n@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}'
-        '.caret{animation:blink 1.1s step-end infinite}'
-        '.pk-still{display:none}'
-        '@media (prefers-reduced-motion:reduce){.st,.caret{animation:none}.pk{display:none}.pk-still{display:inline}}'
-    )
-    return shell(
-        doc, W, H,
-        'Azan Hyder, software systems and ops engineer',
-        'How a change moves to production: classify by blast radius, rehearse off production, '
-        'prove by reading the version back, watch. Two changes travel the lane and light each station as they pass.',
-        style, body, 20,
-    )
 
 
 # ---------------------------------------------------------------- cards
@@ -387,7 +273,6 @@ def main():
     }
     (args.out / 'cards').mkdir(parents=True, exist_ok=True)
     for name, theme in THEMES.items():
-        (args.out / f'banner-{name}.svg').write_text(banner(faces, theme))
         for n, c in enumerate(CARDS, 1):
             (args.out / 'cards' / f'{c["id"]}-{name}.svg').write_text(card(faces, theme, n, c))
     for p in sorted(args.out.rglob('*.svg')):
