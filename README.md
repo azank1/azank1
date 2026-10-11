@@ -1,166 +1,76 @@
-<div align="center">
+<a href="https://azanhyder-port.vercel.app">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+    <img src="assets/banner-light.svg" width="100%" alt="Azan Hyder, software systems and ops engineer. How a change moves to production: classify by blast radius, rehearse off production, prove by reading the version back, watch.">
+  </picture>
+</a>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=140&color=gradient&customColorList=12,14,16,18,20&section=header" width="100%" alt="" />
+**Software engineer working on AI agents and the systems that check them.**
+I turn research questions into working software: measurable, inspectable, and useful past the demo.
 
-## Software engineer working on AI agents and the systems that check them
+[![Portfolio](https://img.shields.io/badge/portfolio-azanhyder--port.vercel.app-ff5f1f?style=flat-square&labelColor=181818)](https://azanhyder-port.vercel.app)
+[![Metaorcha](https://img.shields.io/badge/building-metaorcha.ai-2b2b2b?style=flat-square&labelColor=181818)](https://metaorcha.ai)
+[![dev.to](https://img.shields.io/badge/dev.to-%40azankhyder-2b2b2b?style=flat-square&labelColor=181818&logo=devdotto&logoColor=white)](https://dev.to/azankhyder)
+[![X](https://img.shields.io/badge/X-%40azankhyder-2b2b2b?style=flat-square&labelColor=181818&logo=x&logoColor=white)](https://x.com/azankhyder)
+[![Email](https://img.shields.io/badge/email-azanhyder49%40gmail.com-2b2b2b?style=flat-square&labelColor=181818&logo=gmail&logoColor=white)](mailto:azanhyder49@gmail.com)
 
-Azan Hyder. I turn research questions into working software, with a focus on
-systems that are measurable, inspectable, and useful beyond the demo.
+### Now
 
-[![Website](https://img.shields.io/badge/metaorcha.ai-111827?style=flat-square&logo=googlechrome&logoColor=white)](https://metaorcha.ai)
-[![Email](https://img.shields.io/badge/Email-azanhyder49%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:azanhyder49@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-azank1-181717?style=flat-square&logo=github)](https://github.com/azank1)
-[![X](https://img.shields.io/badge/X-%40azankhyder-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/azankhyder)
-[![dev.to](https://img.shields.io/badge/dev.to-%40azankhyder-0A0A0A?style=flat-square&logo=devdotto&logoColor=white)](https://dev.to/azankhyder)
+- **Production** · CRM DevOps and AI engineering at [Millennium Legal](https://www.millenniumlegal.co.uk/): the harness around three live production CRMs. [The method](https://azanhyder-port.vercel.app/research/#production)
+- **Building** · [Metaorcha](https://metaorcha.ai), an open runtime where one goal becomes a verified multi-agent run. [Metabot](https://metaorcha.ai/metabot), the agent on top, is in progress.
+- **Writing** · [The Harness Layer](https://dev.to/azankhyder/series/42904), field notes on agent harnesses, each with an artifact you can re-run.
+- **Before** · Lead AI engineer at [Zayup](https://zayup.com/) (2023 to 2026), blockchain developer at AidTech, support engineering at [Trezor](https://trezor.io/).
 
-</div>
+### Work, most involved first
 
----
+<p>
+<a href="https://metaorcha.ai/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/metaorcha-dark.svg"><img src="assets/cards/metaorcha-light.svg" width="49%" alt="01 Metaorcha. Live, open source, Apache 2.0. One goal in, a verified multi-agent run out, across MCP, A2A and computer use. Every run leaves a signed receipt that verifies offline."></picture></a>
+<a href="https://azanhyder-port.vercel.app/research/#production"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/production-dark.svg"><img src="assets/cards/production-light.svg" width="49%" alt="02 Production harness. In production, private. Around three live production CRMs: every change classified by what it can break, rehearsed off production, done only when production shows it. Links to the method."></picture></a>
+<a href="https://github.com/azank1/cdv"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/cdv-dark.svg"><img src="assets/cards/cdv-light.svg" width="49%" alt="03 CDV. Open source research preview. An agent never grades its own work: a deterministic floor and an LLM critic score each step, the stricter wins, and a Bayesian loop decides when to stop."></picture></a>
+<a href="https://github.com/azank1/code-desk-cli"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/code-desks-dark.svg"><img src="assets/cards/code-desks-light.svg" width="49%" alt="04 Code Desks. Open source, MIT. Run an office of AI coding sessions from your terminal: named desks, gated handoffs, and a meter that reads what each desk really used."></picture></a>
+<a href="https://bizopsmap-preview-nu.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/bizopsmap-dark.svg"><img src="assets/cards/bizopsmap-light.svg" width="49%" alt="05 bizopsmap. Live preview, open source, local first. Layers, lanes, relations and stats for a codebase or a business operation, drawn as one local page with OpenTelemetry on the same map."></picture></a>
+<a href="https://commit.city"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/commit-city-dark.svg"><img src="assets/cards/commit-city-light.svg" width="49%" alt="06 commit.city. Live, open source, MIT. Swap github.com for commit.city: any user, org or repo becomes a 3D city and a year of commits replays as a time lapse."></picture></a>
+</p>
 
-## Core focus
+Code behind the live ones: [metaorcha](https://github.com/solvent-labs-org/metaorcha) · [bizopsmap](https://github.com/azank1/bizopsmap) · [commit-city](https://github.com/azank1/commit-city)<br>
+More: [RP2A](https://github.com/azank1/restaurant-provider-to-agent) · [ML Trend Probability](https://github.com/azank1/ML-ProbabalisticTrend) · [sdca-raqqr](https://github.com/azank1/sdca-raqqr) · [strategy-builder-ai](https://github.com/azank1/strategy-builder-ai) · [notion-mcp](https://github.com/azank1/notion-mcp) · [claude-agent](https://github.com/azank1/claude-agent) · [all 16 builds](https://azanhyder-port.vercel.app/catalog/)
 
-**[Metaorcha](https://metaorcha.ai)** — many models, one harness. Building [Orcha](https://github.com/solvent-labs-org/metaorcha), an Apache 2.0 runtime where one goal becomes a verified multi-agent run across MCP, A2A, and Computer-Use.
+### Measured
 
-| Stage | Milestone |
-|---|---|
-| 🟢 **Now** | v1 runtime: multiprotocol orchestration, shipping locally |
-| 🟡 **Next** | v1.2 harness: DAG execution, output verification, retry and fallback |
-| 🔵 **Aim** | network layer: peer discovery, fulfillment, reputation |
+- **5/5** multi-protocol runs verified live, best wall clock 13 s · [Metaorcha](https://github.com/solvent-labs-org/metaorcha)
+- **41%** fewer agent steps than a fixed budget, replicated to the digit, along with the case that breaks it · [field note 009](https://dev.to/azankhyder/a-stop-rule-that-trusts-one-score-is-worse-than-a-dumb-budget-428c)
+- **5.4B** tokens metered over 30 days and 31k turns, 97% of them from cache · [Code Desks](https://github.com/azank1/code-desk-cli)
+- **25** typed MCP tools behind a production voice-ordering agent · [RP2A](https://github.com/azank1/restaurant-provider-to-agent)
+- **290+** tests under a multi-tenant restaurant OS, built by a five-person team I led · Zayup
+- **3 weeks** to a complete React Native MVP, directing a three-developer team · DeliveryOS
 
----
+### Writing
 
-## What I build
+[The Harness Layer](https://dev.to/azankhyder/series/42904): field notes on agent harnesses, each with sources, its limits and an artifact you can re-run.
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <b>🤖 AI and agent systems</b><br />
-      <sub>Agent orchestration, MCP tool ecosystems, retrieval, and verification loops for more dependable model behavior.</sub>
-    </td>
-    <td width="33%" valign="top">
-      <b>🔗 Decentralized systems</b><br />
-      <sub>Experiments in governance, trust-minimized exchange, zero-knowledge proofs, and fairer economic coordination.</sub>
-    </td>
-    <td width="33%" valign="top">
-      <b>📈 Quantitative research tools</b><br />
-      <sub>Probabilistic models, backtesting systems, and analysis software that make assumptions visible.</sub>
-    </td>
-  </tr>
-</table>
+- [When should an agent stop?](https://dev.to/azankhyder/a-stop-rule-that-trusts-one-score-is-worse-than-a-dumb-budget-428c) · Sep 2026 · [artifact](https://github.com/azank1/code-desk-cli/tree/main/research/009-stop-rule)
+- [Web chat is not a coding environment](https://dev.to/azankhyder/web-chat-is-not-a-coding-environment-2m77) · Sep 2026
+- [Pacing the frontier does not watch the agents](https://dev.to/azankhyder/pacing-the-frontier-does-not-watch-the-agents-4i5o) · Sep 2026
+- [Models converged. Trust hasn't.](https://dev.to/azankhyder/models-converged-trust-hasnt-1k53) · Aug 2026
+- [I turned GitHub into a 3D city, then pressed A and saw who is really writing the code](https://dev.to/azankhyder/i-turned-github-into-a-3d-city-then-pressed-a-and-saw-who-is-really-writing-the-code-4jn2) · launch post, Oct 2026
 
----
+### Stack
 
-## Writing
+- **Agents** · MCP, A2A, computer use, LangGraph, LLM evaluation, Claude Code, Codex, Cursor
+- **Production** · FastAPI, Next.js, Postgres, Supabase, pgvector, Redis, Vercel, Cloudflare Workers
+- **Stats** · OpenTelemetry, Bayesian optimization, backtesting, KMeans and PCA
+- **Languages** · Python, TypeScript, SQL, Bash, Solidity
 
-**[The Harness Layer](https://dev.to/azankhyder/series/42904)** on dev.to: research field notes on
-agent harnesses, each with sources, a limitations section and a reproducible artifact.
-Latest: [When should an agent stop?](https://dev.to/azankhyder/a-stop-rule-that-trusts-one-score-is-worse-than-a-dumb-budget-428c)
-(artifact in [code-desk-cli/research](https://github.com/azank1/code-desk-cli/tree/main/research/009-stop-rule)).
-Practice pieces and short takes on [X](https://x.com/azankhyder).
+### Activity
 
----
+<a href="https://github.com/azank1">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=azank1&border_radius=16&border=2f2f2f&background=181818&stroke=2f2f2f&ring=ff5f1f&fire=ff5f1f&currStreakLabel=ff8a50&currStreakNum=e4e4e4&sideNums=e4e4e4&sideLabels=a3a3a3&dates=737373">
+    <img src="https://streak-stats.demolab.com?user=azank1&border_radius=16&border=e2e2e1&background=fbfbfa&stroke=e2e2e1&ring=ff5f1f&fire=ff5f1f&currStreakLabel=c2410c&currStreakNum=171717&sideNums=171717&sideLabels=525252&dates=737373" width="49%" alt="GitHub streak stats for azank1: total contributions, current streak and longest streak">
+  </picture>
+</a>
 
-## Selected work
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/azank1/code-desk-cli"><b>Code Desks</b></a><br />
-      <sub>Run an office of AI coding sessions from your terminal: two hats, gated handoffs, and a meter that reads what each desk really used.</sub><br /><br />
-      <code>Python</code> <code>Agents</code> <code>MIT</code><br />
-      <img src="https://img.shields.io/github/stars/azank1/code-desk-cli?style=flat-square&label=%E2%98%85&labelColor=111827&color=38bdf8" alt="Code Desks stars" />
-      <img src="https://img.shields.io/github/last-commit/azank1/code-desk-cli?style=flat-square&label=updated&labelColor=111827&color=38bdf8" alt="Code Desks last commit" />
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/solvent-labs-org/metaorcha"><b>Metaorcha</b></a> · <a href="https://metaorcha.ai"><sub>metaorcha.ai</sub></a><br />
-      <sub>Apache 2.0 runtime for multi-protocol agent orchestration.</sub><br /><br />
-      <code>Python</code> <code>Agents</code><br />
-      <img src="https://img.shields.io/github/stars/solvent-labs-org/metaorcha?style=flat-square&label=%E2%98%85&labelColor=111827&color=38bdf8" alt="Metaorcha stars" />
-      <img src="https://img.shields.io/github/last-commit/solvent-labs-org/metaorcha?style=flat-square&label=updated&labelColor=111827&color=38bdf8" alt="Metaorcha last commit" />
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/azank1/cdv"><b>CDV</b></a><br />
-      <sub>A frozen public research preview for judging AI-agent work with a deterministic floor, an LLM critic, and Bayesian stopping.</sub><br /><br />
-      <code>Python</code> <code>LLM evaluation</code><br />
-      <img src="https://img.shields.io/github/stars/azank1/cdv?style=flat-square&label=%E2%98%85&labelColor=111827&color=38bdf8" alt="CDV stars" />
-      <img src="https://img.shields.io/github/license/azank1/cdv?style=flat-square&labelColor=111827&color=38bdf8" alt="CDV license" />
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/azank1/ML-ProbabalisticTrend"><b>ML Trend Probability</b></a><br />
-      <sub>A machine-learning signal framework that tunes and stacks trading indicators into a trend-probability strategy.</sub><br /><br />
-      <code>Python</code> <code>ML</code> <code>Quant</code><br />
-      <img src="https://img.shields.io/github/stars/azank1/ML-ProbabalisticTrend?style=flat-square&label=%E2%98%85&labelColor=111827&color=38bdf8" alt="ML Trend Probability stars" />
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/azank1/sdca-raqqr"><b>SDCA RAQQR</b></a><br />
-      <sub>A Bitcoin market-risk model and backtesting library for accumulation and distribution strategies.</sub><br /><br />
-      <code>Python</code> <code>Quant research</code><br />
-      <img src="https://img.shields.io/github/stars/azank1/sdca-raqqr?style=flat-square&label=%E2%98%85&labelColor=111827&color=38bdf8" alt="SDCA RAQQR stars" />
-    </td>
-    <td width="50%" valign="top"></td>
-  </tr>
-</table>
-
----
-
-## Capabilities
-
-### Languages and application development
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-
-### AI and data
-
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square)
-![MCP](https://img.shields.io/badge/Model_Context_Protocol-111827?style=flat-square)
-
-### Infrastructure and decentralized systems
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
-![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=flat-square&logo=ethereum&logoColor=white)
-![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
-
-<div align="center">
-
-**Core languages**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
-![Shell](https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-
-</div>
-
----
-
-## Activity
-
-<div align="center">
-  <a href="https://github.com/azank1">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=azank1&hide_border=true&background=0D1117&stroke=30363d&ring=38bdf8&fire=38bdf8&currStreakLabel=38bdf8&currStreakNum=f0f6fc&sideNums=f0f6fc&sideLabels=c9d1d9&dates=8b949e" />
-      <img src="https://streak-stats.demolab.com?user=azank1&hide_border=true&background=ffffff&stroke=d0d7de&ring=0284c7&fire=0284c7&currStreakLabel=0284c7&currStreakNum=1f2328&sideNums=1f2328&sideLabels=424a53&dates=656d76" alt="GitHub streak stats for azank1: total contributions, current streak, and longest streak" height="165" />
-    </picture>
-  </a>
-</div>
-
----
-
-## On carving your own path
+### On carving your own path
 
 **Side quests used to be what you did after work. I made them the work, and made it respectable.**
 
@@ -180,24 +90,6 @@ filters and edit your worldview for you. Don't accept the patch.
 
 ---
 
-## Let's build together
+Working on agent runtimes, protocol bridges or verification? [Open an issue on Metaorcha](https://github.com/solvent-labs-org/metaorcha/issues) or [email me](mailto:azanhyder49@gmail.com).
 
-If you are working on agent runtimes, protocol bridges, or verification,
-[open an issue on Metaorcha](https://github.com/solvent-labs-org/metaorcha)
-or [send me an email](mailto:azanhyder49@gmail.com).
-
-<div align="center">
-
-*"It's all relative."*
-
-<sub>
-  <a href="https://x.com/azankhyder">X @azankhyder</a> ·
-  <a href="https://dev.to/azankhyder">dev.to @azankhyder</a> ·
-  <a href="https://github.com/azank1/code-desk-cli">Code Desks</a> ·
-  <a href="https://metaorcha.ai">metaorcha.ai</a> ·
-  <a href="mailto:azanhyder49@gmail.com">Email</a>
-</sub>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&customColorList=12,14,16,18,20&section=footer" width="100%" alt="" />
-
-</div>
+<sub>[azanhyder-port.vercel.app](https://azanhyder-port.vercel.app) · [metaorcha.ai](https://metaorcha.ai) · [dev.to](https://dev.to/azankhyder) · [X](https://x.com/azankhyder) · [LinkedIn](https://www.linkedin.com/in/azan-hyder-8aa58b408/) · [azanhyder49@gmail.com](mailto:azanhyder49@gmail.com) · *It's all relative.*</sub>
