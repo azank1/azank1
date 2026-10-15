@@ -12,7 +12,7 @@ I turn research questions into working software: measurable, inspectable, and us
 - **Production** · CRM DevOps and AI engineering (conveyacning + transport-routing real-time system scaling): the harness around live production CRMs/CMSs. [The method](https://azanhyder-port.vercel.app/research/#production)
 - **Building** · [Metaorcha](https://metaorcha.ai), an open runtime where one goal becomes a verified multi-agent run. [Metabot](https://metaorcha.ai/metabot), the agent on top, is in progress.
 - **Writing** · [The Harness Layer](https://dev.to/azankhyder/series/42904), field notes on agent harnesses, each with an artifact you can re-run.
-- **Before** · Lead AI engineer at [Zayup](https://zayup.com/) (2023 to 2026), blockchain developer at AidTech, support engineering at [Trezor](https://trezor.io/).
+
 
 ### Work, most involved first
 
