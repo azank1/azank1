@@ -147,12 +147,7 @@ CARDS = [
     dict(
         id='metaorcha', name='Metaorcha', status='OPEN SOURCE · APACHE 2.0', live='LIVE',
         line='One goal in, a verified multi-agent run out, across MCP, A2A and computer use. Every run leaves a signed receipt that verifies offline.',
-        tags='Python · MCP · A2A', dest='metaorcha.ai', url='https://metaorcha.ai/',
-    ),
-    dict(
-        id='production', name='Production harness', status='PRIVATE', live='IN PRODUCTION',
-        line='Around three live production CRMs: every change classified by what it can break, rehearsed off production, done only when production shows it.',
-        tags='Supabase · Postgres · CI/CD', dest='the method', url='https://azanhyder-port.vercel.app/research/#production',
+        tags='Python · MCP · A2A', dest='solvent-labs-org/metaorcha', url='https://github.com/solvent-labs-org/metaorcha',
     ),
     dict(
         id='seamkit', name='seamkit', status='OPEN SOURCE · APACHE 2.0', live='ON NPM',
@@ -160,9 +155,14 @@ CARDS = [
         tags='TypeScript · GitHub Action', dest='azank1/seamkit', url='https://github.com/azank1/seamkit',
     ),
     dict(
-        id='agent-check', name='agent-check', status='OPEN SOURCE · MIT', live='v1.0.0',
+        id='agent-check', name='agent-check', status='OPEN SOURCE · MIT', live='v1.1.0',
         line='Flags the risky agent setup a repo ships to every clone, and the CI agents that issue or PR text from outsiders can drive. One line in a workflow.',
         tags='Python · GitHub Action', dest='azank1/agent-exposure', url='https://github.com/azank1/agent-exposure',
+    ),
+    dict(
+        id='guardrails-kit', name='guardrails-kit', status='OPEN SOURCE · MIT',
+        line='Fail-closed Claude Code hooks for team repos: no pushes to main, no destructive commands, no secrets written or read. Input it cannot parse is blocked.',
+        tags='Python · Claude Code hooks', dest='azank1/guardrails-kit', url='https://github.com/azank1/guardrails-kit',
     ),
     dict(
         id='cdv', name='CDV', status='OPEN SOURCE · RESEARCH PREVIEW',
@@ -204,6 +204,11 @@ def card_glyph(card_id: str, t: dict) -> str:
         return (
             f'<path d="M4 9 H30 M4 22 H24 M4 35 H34" {line}/>'
             f'<circle cx="35" cy="22" r="6.5" {acc}/><path d="M35 18.8 V22.6 M35 25.4 V25.5" {acc}/>'
+        )
+    if card_id == 'guardrails-kit':  # a command stopped at the gate
+        return (
+            f'<path d="M2 22 H22" {line}/><path d="M16 16 L22 22 L16 28" {line}/>'
+            f'<path d="M30 6 V38" {acc}/><path d="M36 15 L42 21 M42 15 L36 21" {acc}/>'
         )
     if card_id == 'cdv':  # two judges, the stricter score wins
         return (

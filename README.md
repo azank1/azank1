@@ -11,24 +11,22 @@ I turn research questions into working software: measurable, inspectable, and us
 ### Now
 
 - **Production** · CRM DevOps and AI engineering (conveyancing + transport-routing real-time system scaling): the harness around live production CRMs/CMSs. [The method](https://azanhyder-port.vercel.app/research/#production)
-- **Shipped** · [agent-check v1.0.0](https://github.com/azank1/agent-exposure), one workflow line that flags risky agent setup in a repo, and [guardrails-kit](https://github.com/azank1/guardrails-kit), fail-closed Claude Code hooks for team repos.
 - **Building** · [Metaorcha](https://metaorcha.ai), an open runtime where one goal becomes a verified multi-agent run. [Metabot](https://metaorcha.ai/metabot), the agent on top, is in progress.
 - **Writing** · [The Harness Layer](https://dev.to/azankhyder/series/42904), field notes on agent harnesses, each with an artifact you can re-run.
 
 
-### Work, most involved first
+### Repos, most involved first
 
 <p>
-<a href="https://metaorcha.ai/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/metaorcha-dark.svg"><img src="assets/cards/metaorcha-light.svg" width="49%" alt="01 Metaorcha. Live, open source, Apache 2.0. One goal in, a verified multi-agent run out, across MCP, A2A and computer use. Every run leaves a signed receipt that verifies offline."></picture></a>
-<a href="https://azanhyder-port.vercel.app/research/#production"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/production-dark.svg"><img src="assets/cards/production-light.svg" width="49%" alt="02 Production harness. In production, private. Around three live production CRMs: every change classified by what it can break, rehearsed off production, done only when production shows it. Links to the method."></picture></a>
-<a href="https://github.com/azank1/seamkit"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/seamkit-dark.svg"><img src="assets/cards/seamkit-light.svg" width="49%" alt="03 seamkit. On npm, open source, Apache 2.0. Deterministic production checks for code mostly written by agents: verdicts read back from what is live, with no model inside. Proven on real deploys."></picture></a>
-<a href="https://github.com/azank1/agent-exposure"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/agent-check-dark.svg"><img src="assets/cards/agent-check-light.svg" width="49%" alt="04 agent-check. v1.0.0, open source, MIT. Flags the risky agent setup a repo ships to every clone, and the CI agents that issue or PR text from outsiders can drive. One line in a workflow."></picture></a>
+<a href="https://github.com/solvent-labs-org/metaorcha"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/metaorcha-dark.svg"><img src="assets/cards/metaorcha-light.svg" width="49%" alt="01 Metaorcha. Live, open source, Apache 2.0. One goal in, a verified multi-agent run out, across MCP, A2A and computer use. Every run leaves a signed receipt that verifies offline."></picture></a>
+<a href="https://github.com/azank1/seamkit"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/seamkit-dark.svg"><img src="assets/cards/seamkit-light.svg" width="49%" alt="02 seamkit. On npm, open source, Apache 2.0. Deterministic production checks for code mostly written by agents: verdicts read back from what is live, with no model inside. Proven on real deploys."></picture></a>
+<a href="https://github.com/azank1/agent-exposure"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/agent-check-dark.svg"><img src="assets/cards/agent-check-light.svg" width="49%" alt="03 agent-check. v1.1.0, open source, MIT. Flags the risky agent setup a repo ships to every clone, and the CI agents that issue or PR text from outsiders can drive. One line in a workflow."></picture></a>
+<a href="https://github.com/azank1/guardrails-kit"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/guardrails-kit-dark.svg"><img src="assets/cards/guardrails-kit-light.svg" width="49%" alt="04 guardrails-kit. Open source, MIT. Fail-closed Claude Code hooks for team repos: no pushes to main, no destructive commands, no secrets written or read. Input it cannot parse is blocked."></picture></a>
 <a href="https://github.com/azank1/cdv"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/cdv-dark.svg"><img src="assets/cards/cdv-light.svg" width="49%" alt="05 CDV. Open source research preview. An agent never grades its own work: a deterministic floor and an LLM critic score each step, the stricter wins, and a Bayesian loop decides when to stop."></picture></a>
 <a href="https://github.com/azank1/code-desk-cli"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/code-desks-dark.svg"><img src="assets/cards/code-desks-light.svg" width="49%" alt="06 Code Desks. Open source, MIT. Run an office of AI coding sessions from your terminal: named desks, gated handoffs, and a meter that reads what each desk really used."></picture></a>
 </p>
 
-Code behind Metaorcha: [solvent-labs-org/metaorcha](https://github.com/solvent-labs-org/metaorcha)<br>
-More: [guardrails-kit](https://github.com/azank1/guardrails-kit) · [commit.city](https://commit.city) · [bizopsmap](https://bizopsmap-preview-nu.vercel.app/) · [RP2A](https://github.com/azank1/restaurant-provider-to-agent) · [ML Trend Probability](https://github.com/azank1/ML-ProbabalisticTrend) · [sdca-raqqr](https://github.com/azank1/sdca-raqqr) · [strategy-builder-ai](https://github.com/azank1/strategy-builder-ai) · [notion-mcp](https://github.com/azank1/notion-mcp) · [claude-agent](https://github.com/azank1/claude-agent) · [all 16 builds](https://azanhyder-port.vercel.app/catalog/)
+More: [commit-city](https://github.com/azank1/commit-city) · [bizopsmap](https://github.com/azank1/bizopsmap) · [RP2A](https://github.com/azank1/restaurant-provider-to-agent) · [ML Trend Probability](https://github.com/azank1/ML-ProbabalisticTrend) · [sdca-raqqr](https://github.com/azank1/sdca-raqqr) · [strategy-builder-ai](https://github.com/azank1/strategy-builder-ai) · [notion-mcp](https://github.com/azank1/notion-mcp) · [claude-agent](https://github.com/azank1/claude-agent)
 
 ### Measured
 
@@ -39,11 +37,25 @@ More: [guardrails-kit](https://github.com/azank1/guardrails-kit) · [commit.city
 - **290+** tests under a multi-tenant restaurant OS, built by a five-person team I led · Zayup
 - **3 weeks** to a complete React Native MVP, directing a three-developer team · DeliveryOS
 
-### Merged upstream
+### Recent public activity
 
-- **[ECC](https://github.com/affaan-m/ECC/pull/3591)** · a SessionStart hook crash that broke every project for plugin installs. Merged 2026-10-29; a Windows user measured 0/27 hooks passing before the fix and 26/27 after.
-- **[tmux](https://github.com/tmux/tmux/pull/5775)** · a regex anchoring bug in format substitutions, present since 2019. Applied upstream with credit.
-- **[huggingface_hub](https://github.com/huggingface/huggingface_hub/issues/5180)** · reported `hf skills add --force` replacing an installed skill with a symlink to itself. Fixed in v2.3.0.
+| date | where | what | outcome |
+|---|---|---|---|
+| Oct 31 | [agent-check](https://github.com/azank1/agent-exposure/releases/tag/v1.1.0) | v1.1.0: now flags comment-triggered checkouts, and documents a fix for every finding | released |
+| Oct 31 | [guardrails-kit](https://github.com/azank1/guardrails-kit) | fail-closed Claude Code hooks for team repos, with tests | released |
+| Oct 19 | [tmux #5775](https://github.com/tmux/tmux/pull/5775) | `^` matched again mid-string in format substitutions, since 2019 | applied upstream 10 h later, regress test credited |
+| Oct 18 | [blackbox_exporter #1715](https://github.com/prometheus/blackbox_exporter/pull/1715) | target URLs percent-decoded twice since 0.29.0 | open, awaiting review |
+| Oct 16 | [huggingface_hub #5180](https://github.com/huggingface/huggingface_hub/issues/5180) | `hf skills add --force` replaced a skill with a symlink to itself | fixed in-house in v2.3.0, report credited |
+| Oct 15 | [ECC #3591](https://github.com/affaan-m/ECC/pull/3591) | SessionStart hook crashed in every project on plugin installs | merged Oct 29; on Windows 0/27 → 26/27 hooks passing |
+| Oct 15 | [vercel-plugin #343](https://github.com/vercel/vercel-plugin/pull/343) | session-start context overran Claude Code's hook output cap | open; a Vercel engineer extended it on the branch |
+| Oct 15 | [BMAD-METHOD #3094](https://github.com/bmad-code-org/BMAD-METHOD/issues/3094) | update drops the config of a module kept without a source | open issue |
+
+What the feedback taught:
+
+- A minimal reproduction with a regression test gets applied as written. Without one, maintainers rewrite the fix in-house, which is fine when the credit stays.
+- Big projects merge in batches. ECC took two weeks; meanwhile an outside contributor verified the fix independently, which helped it land.
+- When a maintainer pushes to your branch, follow their direction. The Vercel change grew from a trim into splitting the context into parts under the cap.
+- Severity should follow what the job can actually do, not the pattern it matches. agent-check grades that way.
 
 ### Writing
 
