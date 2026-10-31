@@ -4,7 +4,6 @@ I turn research questions into working software: measurable, inspectable, and us
 [![Portfolio](https://img.shields.io/badge/portfolio-azanhyder--port.vercel.app-ff5f1f?style=flat-square&labelColor=181818)](https://azanhyder-port.vercel.app)
 [![Metaorcha](https://img.shields.io/badge/building-metaorcha.ai-2b2b2b?style=flat-square&labelColor=181818)](https://metaorcha.ai)
 [![dev.to](https://img.shields.io/badge/dev.to-%40azankhyder-2b2b2b?style=flat-square&labelColor=181818&logo=devdotto&logoColor=white)](https://dev.to/azankhyder)
-[![Fixed-price work](https://img.shields.io/badge/fixed--price%20work-agent%20security%20%C2%B7%20Claude%20Code%20setup-2b2b2b?style=flat-square&labelColor=181818)](https://azank1.github.io/offer-site/)
 [![X](https://img.shields.io/badge/X-%40azankhyder-2b2b2b?style=flat-square&labelColor=181818&logo=x&logoColor=white)](https://x.com/azankhyder)
 [![Email](https://img.shields.io/badge/email-azanhyder49%40gmail.com-2b2b2b?style=flat-square&labelColor=181818&logo=gmail&logoColor=white)](mailto:azanhyder49@gmail.com)
 
@@ -105,6 +104,5 @@ filters and edit your worldview for you. Don't accept the patch.
 ---
 
 Working on agent runtimes, protocol bridges or verification? [Open an issue on Metaorcha](https://github.com/solvent-labs-org/metaorcha/issues) or [email me](mailto:azanhyder49@gmail.com).
-Want your agents' reach checked, or Claude Code set up for a team with guardrails? [Fixed-price work](https://azank1.github.io/offer-site/).
 
 <sub>[azanhyder-port.vercel.app](https://azanhyder-port.vercel.app) · [metaorcha.ai](https://metaorcha.ai) · [dev.to](https://dev.to/azankhyder) · [X](https://x.com/azankhyder) · [LinkedIn](https://www.linkedin.com/in/azan-hyder-8aa58b408/) · [azanhyder49@gmail.com](mailto:azanhyder49@gmail.com) · *It's all relative.*</sub>
