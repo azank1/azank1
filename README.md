@@ -1,15 +1,17 @@
-**Software engineer working on AI agents and the systems that check them.**
+**Production systems engineer. I build AI agents and the systems that check them.**
 I turn research questions into working software: measurable, inspectable, and useful past the demo.
 
 [![Portfolio](https://img.shields.io/badge/portfolio-azanhyder--port.vercel.app-ff5f1f?style=flat-square&labelColor=181818)](https://azanhyder-port.vercel.app)
 [![Metaorcha](https://img.shields.io/badge/building-metaorcha.ai-2b2b2b?style=flat-square&labelColor=181818)](https://metaorcha.ai)
 [![dev.to](https://img.shields.io/badge/dev.to-%40azankhyder-2b2b2b?style=flat-square&labelColor=181818&logo=devdotto&logoColor=white)](https://dev.to/azankhyder)
+[![Fixed-price work](https://img.shields.io/badge/fixed--price%20work-agent%20security%20%C2%B7%20Claude%20Code%20setup-2b2b2b?style=flat-square&labelColor=181818)](https://azank1.github.io/offer-site/)
 [![X](https://img.shields.io/badge/X-%40azankhyder-2b2b2b?style=flat-square&labelColor=181818&logo=x&logoColor=white)](https://x.com/azankhyder)
 [![Email](https://img.shields.io/badge/email-azanhyder49%40gmail.com-2b2b2b?style=flat-square&labelColor=181818&logo=gmail&logoColor=white)](mailto:azanhyder49@gmail.com)
 
 ### Now
 
-- **Production** · CRM DevOps and AI engineering (conveyacning + transport-routing real-time system scaling): the harness around live production CRMs/CMSs. [The method](https://azanhyder-port.vercel.app/research/#production)
+- **Production** · CRM DevOps and AI engineering (conveyancing + transport-routing real-time system scaling): the harness around live production CRMs/CMSs. [The method](https://azanhyder-port.vercel.app/research/#production)
+- **Shipped** · [agent-check v1.0.0](https://github.com/azank1/agent-exposure), one workflow line that flags risky agent setup in a repo, and [guardrails-kit](https://github.com/azank1/guardrails-kit), fail-closed Claude Code hooks for team repos.
 - **Building** · [Metaorcha](https://metaorcha.ai), an open runtime where one goal becomes a verified multi-agent run. [Metabot](https://metaorcha.ai/metabot), the agent on top, is in progress.
 - **Writing** · [The Harness Layer](https://dev.to/azankhyder/series/42904), field notes on agent harnesses, each with an artifact you can re-run.
 
@@ -19,14 +21,14 @@ I turn research questions into working software: measurable, inspectable, and us
 <p>
 <a href="https://metaorcha.ai/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/metaorcha-dark.svg"><img src="assets/cards/metaorcha-light.svg" width="49%" alt="01 Metaorcha. Live, open source, Apache 2.0. One goal in, a verified multi-agent run out, across MCP, A2A and computer use. Every run leaves a signed receipt that verifies offline."></picture></a>
 <a href="https://azanhyder-port.vercel.app/research/#production"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/production-dark.svg"><img src="assets/cards/production-light.svg" width="49%" alt="02 Production harness. In production, private. Around three live production CRMs: every change classified by what it can break, rehearsed off production, done only when production shows it. Links to the method."></picture></a>
-<a href="https://github.com/azank1/cdv"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/cdv-dark.svg"><img src="assets/cards/cdv-light.svg" width="49%" alt="03 CDV. Open source research preview. An agent never grades its own work: a deterministic floor and an LLM critic score each step, the stricter wins, and a Bayesian loop decides when to stop."></picture></a>
-<a href="https://github.com/azank1/code-desk-cli"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/code-desks-dark.svg"><img src="assets/cards/code-desks-light.svg" width="49%" alt="04 Code Desks. Open source, MIT. Run an office of AI coding sessions from your terminal: named desks, gated handoffs, and a meter that reads what each desk really used."></picture></a>
-<a href="https://bizopsmap-preview-nu.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/bizopsmap-dark.svg"><img src="assets/cards/bizopsmap-light.svg" width="49%" alt="05 bizopsmap. Live preview, open source, local first. Layers, lanes, relations and stats for a codebase or a business operation, drawn as one local page with OpenTelemetry on the same map."></picture></a>
-<a href="https://commit.city"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/commit-city-dark.svg"><img src="assets/cards/commit-city-light.svg" width="49%" alt="06 commit.city. Live, open source, MIT. Swap github.com for commit.city: any user, org or repo becomes a 3D city and a year of commits replays as a time lapse."></picture></a>
+<a href="https://github.com/azank1/seamkit"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/seamkit-dark.svg"><img src="assets/cards/seamkit-light.svg" width="49%" alt="03 seamkit. On npm, open source, Apache 2.0. Deterministic production checks for code mostly written by agents: verdicts read back from what is live, with no model inside. Proven on real deploys."></picture></a>
+<a href="https://github.com/azank1/agent-exposure"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/agent-check-dark.svg"><img src="assets/cards/agent-check-light.svg" width="49%" alt="04 agent-check. v1.0.0, open source, MIT. Flags the risky agent setup a repo ships to every clone, and the CI agents that issue or PR text from outsiders can drive. One line in a workflow."></picture></a>
+<a href="https://github.com/azank1/cdv"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/cdv-dark.svg"><img src="assets/cards/cdv-light.svg" width="49%" alt="05 CDV. Open source research preview. An agent never grades its own work: a deterministic floor and an LLM critic score each step, the stricter wins, and a Bayesian loop decides when to stop."></picture></a>
+<a href="https://github.com/azank1/code-desk-cli"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/code-desks-dark.svg"><img src="assets/cards/code-desks-light.svg" width="49%" alt="06 Code Desks. Open source, MIT. Run an office of AI coding sessions from your terminal: named desks, gated handoffs, and a meter that reads what each desk really used."></picture></a>
 </p>
 
-Code behind the live ones: [metaorcha](https://github.com/solvent-labs-org/metaorcha) · [bizopsmap](https://github.com/azank1/bizopsmap) · [commit-city](https://github.com/azank1/commit-city)<br>
-More: [RP2A](https://github.com/azank1/restaurant-provider-to-agent) · [ML Trend Probability](https://github.com/azank1/ML-ProbabalisticTrend) · [sdca-raqqr](https://github.com/azank1/sdca-raqqr) · [strategy-builder-ai](https://github.com/azank1/strategy-builder-ai) · [notion-mcp](https://github.com/azank1/notion-mcp) · [claude-agent](https://github.com/azank1/claude-agent) · [all 16 builds](https://azanhyder-port.vercel.app/catalog/)
+Code behind Metaorcha: [solvent-labs-org/metaorcha](https://github.com/solvent-labs-org/metaorcha)<br>
+More: [guardrails-kit](https://github.com/azank1/guardrails-kit) · [commit.city](https://commit.city) · [bizopsmap](https://bizopsmap-preview-nu.vercel.app/) · [RP2A](https://github.com/azank1/restaurant-provider-to-agent) · [ML Trend Probability](https://github.com/azank1/ML-ProbabalisticTrend) · [sdca-raqqr](https://github.com/azank1/sdca-raqqr) · [strategy-builder-ai](https://github.com/azank1/strategy-builder-ai) · [notion-mcp](https://github.com/azank1/notion-mcp) · [claude-agent](https://github.com/azank1/claude-agent) · [all 16 builds](https://azanhyder-port.vercel.app/catalog/)
 
 ### Measured
 
@@ -36,6 +38,12 @@ More: [RP2A](https://github.com/azank1/restaurant-provider-to-agent) · [ML Tren
 - **25** typed MCP tools behind a production voice-ordering agent · [RP2A](https://github.com/azank1/restaurant-provider-to-agent)
 - **290+** tests under a multi-tenant restaurant OS, built by a five-person team I led · Zayup
 - **3 weeks** to a complete React Native MVP, directing a three-developer team · DeliveryOS
+
+### Merged upstream
+
+- **[ECC](https://github.com/affaan-m/ECC/pull/3591)** · a SessionStart hook crash that broke every project for plugin installs. Merged 2026-10-29; a Windows user measured 0/27 hooks passing before the fix and 26/27 after.
+- **[tmux](https://github.com/tmux/tmux/pull/5775)** · a regex anchoring bug in format substitutions, present since 2019. Applied upstream with credit.
+- **[huggingface_hub](https://github.com/huggingface/huggingface_hub/issues/5180)** · reported `hf skills add --force` replacing an installed skill with a symlink to itself. Fixed in v2.3.0.
 
 ### Writing
 
@@ -50,6 +58,7 @@ More: [RP2A](https://github.com/azank1/restaurant-provider-to-agent) · [ML Tren
 ### Stack
 
 - **Agents** · MCP, A2A, computer use, LangGraph, LLM evaluation, Claude Code, Codex, Cursor
+- **Agent security** · Claude Code hooks and permissions, MCP config review, GitHub Actions agent jobs
 - **Production** · FastAPI, Next.js, Postgres, Supabase, pgvector, Redis, Vercel, Cloudflare Workers
 - **Stats** · OpenTelemetry, Bayesian optimization, backtesting, KMeans and PCA
 - **Languages** · Python, TypeScript, SQL, Bash, Solidity
@@ -84,5 +93,6 @@ filters and edit your worldview for you. Don't accept the patch.
 ---
 
 Working on agent runtimes, protocol bridges or verification? [Open an issue on Metaorcha](https://github.com/solvent-labs-org/metaorcha/issues) or [email me](mailto:azanhyder49@gmail.com).
+Want your agents' reach checked, or Claude Code set up for a team with guardrails? [Fixed-price work](https://azank1.github.io/offer-site/).
 
 <sub>[azanhyder-port.vercel.app](https://azanhyder-port.vercel.app) · [metaorcha.ai](https://metaorcha.ai) · [dev.to](https://dev.to/azankhyder) · [X](https://x.com/azankhyder) · [LinkedIn](https://www.linkedin.com/in/azan-hyder-8aa58b408/) · [azanhyder49@gmail.com](mailto:azanhyder49@gmail.com) · *It's all relative.*</sub>

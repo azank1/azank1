@@ -155,6 +155,16 @@ CARDS = [
         tags='Supabase · Postgres · CI/CD', dest='the method', url='https://azanhyder-port.vercel.app/research/#production',
     ),
     dict(
+        id='seamkit', name='seamkit', status='OPEN SOURCE · APACHE 2.0', live='ON NPM',
+        line='Deterministic production checks for code mostly written by agents: verdicts read back from what is live, with no model inside. Proven on real deploys.',
+        tags='TypeScript · GitHub Action', dest='azank1/seamkit', url='https://github.com/azank1/seamkit',
+    ),
+    dict(
+        id='agent-check', name='agent-check', status='OPEN SOURCE · MIT', live='v1.0.0',
+        line='Flags the risky agent setup a repo ships to every clone, and the CI agents that issue or PR text from outsiders can drive. One line in a workflow.',
+        tags='Python · GitHub Action', dest='azank1/agent-exposure', url='https://github.com/azank1/agent-exposure',
+    ),
+    dict(
         id='cdv', name='CDV', status='OPEN SOURCE · RESEARCH PREVIEW',
         line='An agent never grades its own work: a deterministic floor and an LLM critic score each step, the stricter wins, and a Bayesian loop decides when to stop.',
         tags='Python · MCP · Bayesian', dest='azank1/cdv', url='https://github.com/azank1/cdv',
@@ -163,16 +173,6 @@ CARDS = [
         id='code-desks', name='Code Desks', status='OPEN SOURCE · MIT',
         line='Run an office of AI coding sessions from your terminal: named desks, gated handoffs, and a meter that reads what each desk really used.',
         tags='Python · CLI · telemetry', dest='azank1/code-desk-cli', url='https://github.com/azank1/code-desk-cli',
-    ),
-    dict(
-        id='bizopsmap', name='bizopsmap', status='OPEN SOURCE · LOCAL FIRST', live='LIVE',
-        line='Layers, lanes, relations and stats for a codebase or a business operation, drawn as one local page with OpenTelemetry on the same map.',
-        tags='Node · OpenTelemetry', dest='live preview', url='https://bizopsmap-preview-nu.vercel.app/',
-    ),
-    dict(
-        id='commit-city', name='commit.city', status='OPEN SOURCE · MIT', live='LIVE',
-        line='Swap github.com for commit.city: any user, org or repo becomes a 3D city and a year of commits replays as a time lapse. Press A for the agents.',
-        tags='three.js · Vercel · Python', dest='commit.city', url='https://commit.city',
     ),
 ]
 
@@ -193,6 +193,17 @@ def card_glyph(card_id: str, t: dict) -> str:
             f'<path d="M1 22 H43" {line}/>'
             + ''.join(f'<circle cx="{x}" cy="22" r="3.6" fill="{t["bg"]}" stroke="{ink}" stroke-opacity=".42" stroke-width="1.6"/>' for x in (6, 17, 28, 39))
             + f'<rect x="19.5" y="18.5" width="7" height="7" rx="1.8" fill="{hot}"/>'
+        )
+    if card_id == 'seamkit':  # two sides of the seam, checked across it
+        return (
+            f'<rect x="2" y="9" width="16" height="26" rx="2.5" {line}/><rect x="26" y="9" width="16" height="26" rx="2.5" {line}/>'
+            f'<path d="M22 3 V41" {line} stroke-dasharray="2.5 3"/>'
+            f'<path d="M15.5 22.5 L20.5 27.5 L29.5 17" {acc}/>'
+        )
+    if card_id == 'agent-check':  # config lines, one flagged
+        return (
+            f'<path d="M4 9 H30 M4 22 H24 M4 35 H34" {line}/>'
+            f'<circle cx="35" cy="22" r="6.5" {acc}/><path d="M35 18.8 V22.6 M35 25.4 V25.5" {acc}/>'
         )
     if card_id == 'cdv':  # two judges, the stricter score wins
         return (
