@@ -8,7 +8,7 @@ folder holding Geist-SemiBold.ttf and GeistMono-Medium.ttf (static weights, from
 
     python tools/build_assets.py --fonts DIR
 
-Needs fonttools and brotli. Writes assets/bands/<id>.svg. A black band with a hairline edge
+Needs fonttools and brotli. Writes assets/repos/<id>.svg. A black band with a hairline edge
 and blue accents reads on both GitHub themes, so there is one file per repo.
 """
 
@@ -102,7 +102,7 @@ def band(sans: Face, mono: Face, n: int, r: dict) -> str:
 def main():
     ap = argparse.ArgumentParser(description=__doc__.split('\n')[0])
     ap.add_argument('--fonts', type=Path, required=True)
-    ap.add_argument('--out', type=Path, default=Path(__file__).resolve().parent.parent / 'assets' / 'bands')
+    ap.add_argument('--out', type=Path, default=Path(__file__).resolve().parent.parent / 'assets' / 'repos')
     args = ap.parse_args()
     sans = Face(args.fonts / 'Geist-SemiBold.ttf', 'Geist', 600)
     mono = Face(args.fonts / 'GeistMono-Medium.ttf', 'Geist Mono', 500)

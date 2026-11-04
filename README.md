@@ -12,11 +12,11 @@ I turn research questions into working software: measurable, inspectable, and us
 
 ### Repos
 
-<a href="https://github.com/solvent-labs-org/metaorcha"><img src="assets/bands/metaorcha.svg" width="100%" alt="metaorcha"></a>
-<a href="https://github.com/azank1/seamkit"><img src="assets/bands/seamkit.svg" width="100%" alt="seamkit"></a>
-<a href="https://github.com/azank1/agent-exposure"><img src="assets/bands/agent-check.svg" width="100%" alt="agent-check"></a>
-<a href="https://github.com/azank1/guardrails-kit"><img src="assets/bands/guardrails-kit.svg" width="100%" alt="guardrails-kit"></a>
-<a href="https://github.com/azank1/cdv"><img src="assets/bands/cdv.svg" width="100%" alt="conservative-dual-verify"></a>
+<a href="https://github.com/solvent-labs-org/metaorcha"><img src="assets/repos/metaorcha.svg" width="100%" alt="metaorcha"></a>
+<a href="https://github.com/azank1/seamkit"><img src="assets/repos/seamkit.svg" width="100%" alt="seamkit"></a>
+<a href="https://github.com/azank1/agent-exposure"><img src="assets/repos/agent-check.svg" width="100%" alt="agent-check"></a>
+<a href="https://github.com/azank1/guardrails-kit"><img src="assets/repos/guardrails-kit.svg" width="100%" alt="guardrails-kit"></a>
+<a href="https://github.com/azank1/cdv"><img src="assets/repos/cdv.svg" width="100%" alt="conservative-dual-verify"></a>
 
 More: [commit-city](https://github.com/azank1/commit-city) · [RP2A](https://github.com/azank1/restaurant-provider-to-agent) · [sdca-raqqr](https://github.com/azank1/sdca-raqqr)
 
