@@ -28,6 +28,10 @@ More: [commit-city](https://github.com/azank1/commit-city) · [RP2A](https://git
 
 **Stack** · Python, TypeScript, SQL · MCP, A2A, Claude Code hooks · FastAPI, Next.js, Postgres, Supabase, Vercel · OpenTelemetry, Bayesian optimization
 
+### Activity
+
+<a href="https://github.com/azank1"><img src="https://streak-stats.demolab.com?user=azank1&border_radius=16&border=2f2f2f&background=181818&stroke=2f2f2f&ring=ff5f1f&fire=ff5f1f&currStreakLabel=ff8a50&currStreakNum=e4e4e4&sideNums=e4e4e4&sideLabels=a3a3a3&dates=737373" width="49%" alt="GitHub streak stats for azank1: total contributions, current streak and longest streak"></a>
+
 <details>
 <summary><b>Upstream fixes</b></summary>
 
