@@ -13,14 +13,11 @@ I turn research questions into working software: measurable, inspectable, and us
 
 ### Repos, most involved first
 
-<p>
-<a href="https://github.com/solvent-labs-org/metaorcha"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/metaorcha-dark.svg"><img src="assets/cards/metaorcha-light.svg" width="49%" alt="01 Metaorcha. Live, open source, Apache 2.0. One goal in, a verified multi-agent run out, across MCP, A2A and computer use. Every run leaves a signed receipt that verifies offline."></picture></a>
-<a href="https://github.com/azank1/seamkit"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/seamkit-dark.svg"><img src="assets/cards/seamkit-light.svg" width="49%" alt="02 seamkit. On npm, open source, Apache 2.0. Deterministic production checks for code mostly written by agents: verdicts read back from what is live, with no model inside. Proven on real deploys."></picture></a>
-<a href="https://github.com/azank1/agent-exposure"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/agent-check-dark.svg"><img src="assets/cards/agent-check-light.svg" width="49%" alt="03 agent-check. v1.1.0, open source, MIT. Flags the risky agent setup a repo ships to every clone, and the CI agents that issue or PR text from outsiders can drive. One line in a workflow."></picture></a>
-<a href="https://github.com/azank1/guardrails-kit"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/guardrails-kit-dark.svg"><img src="assets/cards/guardrails-kit-light.svg" width="49%" alt="04 guardrails-kit. Open source, MIT. Fail-closed Claude Code hooks for team repos: no pushes to main, no destructive commands, no secrets written or read. Input it cannot parse is blocked."></picture></a>
-<a href="https://github.com/azank1/cdv"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/cdv-dark.svg"><img src="assets/cards/cdv-light.svg" width="49%" alt="05 CDV. Open source research preview. An agent never grades its own work: a deterministic floor and an LLM critic score each step, the stricter wins, and a Bayesian loop decides when to stop."></picture></a>
-<a href="https://github.com/azank1/code-desk-cli"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/code-desks-dark.svg"><img src="assets/cards/code-desks-light.svg" width="49%" alt="06 Code Desks. Open source, MIT. Run an office of AI coding sessions from your terminal: named desks, gated handoffs, and a meter that reads what each desk really used."></picture></a>
-</p>
+<a href="https://github.com/solvent-labs-org/metaorcha"><img src="assets/bands/metaorcha.svg" width="100%" alt="metaorcha"></a>
+<a href="https://github.com/azank1/seamkit"><img src="assets/bands/seamkit.svg" width="100%" alt="seamkit"></a>
+<a href="https://github.com/azank1/agent-exposure"><img src="assets/bands/agent-check.svg" width="100%" alt="agent-check"></a>
+<a href="https://github.com/azank1/guardrails-kit"><img src="assets/bands/guardrails-kit.svg" width="100%" alt="guardrails-kit"></a>
+<a href="https://github.com/azank1/cdv"><img src="assets/bands/cdv.svg" width="100%" alt="conservative-dual-verify"></a>
 
 More: [commit-city](https://github.com/azank1/commit-city) · [RP2A](https://github.com/azank1/restaurant-provider-to-agent) · [sdca-raqqr](https://github.com/azank1/sdca-raqqr)
 
@@ -28,7 +25,6 @@ More: [commit-city](https://github.com/azank1/commit-city) · [RP2A](https://git
 
 - **5/5** multi-protocol runs verified live, best wall clock 13 s · [Metaorcha](https://github.com/solvent-labs-org/metaorcha)
 - **41%** fewer agent steps than a fixed budget, replicated to the digit, along with the case that breaks it · [field note 009](https://dev.to/azankhyder/a-stop-rule-that-trusts-one-score-is-worse-than-a-dumb-budget-428c)
-- **5.4B** tokens metered over 30 days and 31k turns, 97% of them from cache · [Code Desks](https://github.com/azank1/code-desk-cli)
 - **25** typed MCP tools behind a production voice-ordering agent · [RP2A](https://github.com/azank1/restaurant-provider-to-agent)
 - **290+** tests under a multi-tenant restaurant OS, built by a five-person team I led · Zayup
 - **3 weeks** to a complete React Native MVP, directing a three-developer team · DeliveryOS
@@ -57,7 +53,7 @@ What the feedback taught:
 
 [The Harness Layer](https://dev.to/azankhyder/series/42904): field notes on agent harnesses, each with sources, its limits and an artifact you can re-run.
 
-- [When should an agent stop?](https://dev.to/azankhyder/a-stop-rule-that-trusts-one-score-is-worse-than-a-dumb-budget-428c) · Sep 2026 · [artifact](https://github.com/azank1/code-desk-cli/tree/main/research/009-stop-rule)
+- [When should an agent stop?](https://dev.to/azankhyder/a-stop-rule-that-trusts-one-score-is-worse-than-a-dumb-budget-428c) · Sep 2026
 - [Web chat is not a coding environment](https://dev.to/azankhyder/web-chat-is-not-a-coding-environment-2m77) · Sep 2026
 - [Pacing the frontier does not watch the agents](https://dev.to/azankhyder/pacing-the-frontier-does-not-watch-the-agents-4i5o) · Sep 2026
 - [Models converged. Trust hasn't.](https://dev.to/azankhyder/models-converged-trust-hasnt-1k53) · Aug 2026
