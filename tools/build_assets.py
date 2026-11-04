@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Draw the profile README's repo bands as SVG: one slim orange band per repo, name and link.
+"""Draw the profile README's repo bands as SVG: one slim black band per repo, name and link.
 
 An SVG shown through <img> cannot load web fonts, so each file embeds a subset of the
 fonts holding only the characters it uses. Geist and Geist Mono are SIL OFL 1.1; pass a
@@ -8,8 +8,8 @@ folder holding Geist-SemiBold.ttf and GeistMono-Medium.ttf (static weights, from
 
     python tools/build_assets.py --fonts DIR
 
-Needs fonttools and brotli. Writes assets/bands/<id>.svg. The dark ink on the orange band
-reads on both GitHub themes, so there is one file per repo.
+Needs fonttools and brotli. Writes assets/bands/<id>.svg. A black band with a hairline edge
+and blue accents reads on both GitHub themes, so there is one file per repo.
 """
 
 import argparse
@@ -21,8 +21,11 @@ from xml.sax.saxutils import escape
 from fontTools import subset
 from fontTools.ttLib import TTFont
 
-BAND = '#ff5f1f'
-INK = '#171717'
+BAND = '#161b22'
+EDGE = '#30363d'
+INK = '#e6edf3'
+BLUE = '#58a6ff'
+BAR = '#2f81f7'
 
 REPOS = [
     dict(id='metaorcha', name='metaorcha', dest='solvent-labs-org/metaorcha'),
@@ -86,11 +89,12 @@ def band(sans: Face, mono: Face, n: int, r: dict) -> str:
 <style>
 {css}
 </style>
-<rect width="{W}" height="{H}" rx="8" fill="{BAND}"/>
-<text x="{pad}" y="{y}" font-family="GM" font-weight="500" font-size="12" fill="{INK}" fill-opacity=".55">{num}</text>
+<rect x="0.5" y="0.5" width="{W - 1}" height="{H - 1}" rx="8" fill="{BAND}" stroke="{EDGE}"/>
+<rect x="0.5" y="10" width="3" height="{H - 20}" rx="1.5" fill="{BAR}"/>
+<text x="{pad}" y="{y}" font-family="GM" font-weight="500" font-size="12" fill="{BLUE}">{num}</text>
 <text x="{name_x:g}" y="{y}" font-family="G" font-weight="600" font-size="16" fill="{INK}" letter-spacing="-0.2">{escape(name)}</text>
-<text x="{ax - 14}" y="{y}" font-family="GM" font-weight="500" font-size="12" fill="{INK}" text-anchor="end">{escape(dest)}</text>
-<path d="M{ax - 7} {y - 1.5} L{ax} {y - 8.5} M{ax - 5.5} {y - 8.5} H{ax} V{y - 3}" fill="none" stroke="{INK}" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="{ax - 14}" y="{y}" font-family="GM" font-weight="500" font-size="12" fill="{BLUE}" text-anchor="end">{escape(dest)}</text>
+<path d="M{ax - 7} {y - 1.5} L{ax} {y - 8.5} M{ax - 5.5} {y - 8.5} H{ax} V{y - 3}" fill="none" stroke="{BLUE}" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 '''
 
