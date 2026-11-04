@@ -22,7 +22,7 @@ I turn research questions into working software: measurable, inspectable, and us
 <a href="https://github.com/azank1/code-desk-cli"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/code-desks-dark.svg"><img src="assets/cards/code-desks-light.svg" width="49%" alt="06 Code Desks. Open source, MIT. Run an office of AI coding sessions from your terminal: named desks, gated handoffs, and a meter that reads what each desk really used."></picture></a>
 </p>
 
-More: [RP2A](https://github.com/azank1/restaurant-provider-to-agent)
+More: [commit-city](https://github.com/azank1/commit-city) · [RP2A](https://github.com/azank1/restaurant-provider-to-agent) · [sdca-raqqr](https://github.com/azank1/sdca-raqqr)
 
 ### Measured
 
