@@ -1,11 +1,8 @@
 **Production systems engineer. I build AI agents and the systems that check them.**
 I turn research questions into working software: measurable, inspectable, and useful past the demo.
 
-[![Portfolio](https://img.shields.io/badge/portfolio-azanhyder--port.vercel.app-ff5f1f?style=flat-square&labelColor=181818)](https://azanhyder-port.vercel.app)
 [![Metaorcha](https://img.shields.io/badge/building-metaorcha.ai-2b2b2b?style=flat-square&labelColor=181818)](https://metaorcha.ai)
-[![dev.to](https://img.shields.io/badge/dev.to-%40azankhyder-2b2b2b?style=flat-square&labelColor=181818&logo=devdotto&logoColor=white)](https://dev.to/azankhyder)
 [![X](https://img.shields.io/badge/X-%40azankhyder-2b2b2b?style=flat-square&labelColor=181818&logo=x&logoColor=white)](https://x.com/azankhyder)
-[![Email](https://img.shields.io/badge/email-azanhyder49%40gmail.com-2b2b2b?style=flat-square&labelColor=181818&logo=gmail&logoColor=white)](mailto:azanhyder49@gmail.com)
 
 ### Now
 
@@ -25,7 +22,7 @@ I turn research questions into working software: measurable, inspectable, and us
 <a href="https://github.com/azank1/code-desk-cli"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/code-desks-dark.svg"><img src="assets/cards/code-desks-light.svg" width="49%" alt="06 Code Desks. Open source, MIT. Run an office of AI coding sessions from your terminal: named desks, gated handoffs, and a meter that reads what each desk really used."></picture></a>
 </p>
 
-More: [commit-city](https://github.com/azank1/commit-city) · [bizopsmap](https://github.com/azank1/bizopsmap) · [RP2A](https://github.com/azank1/restaurant-provider-to-agent) · [ML Trend Probability](https://github.com/azank1/ML-ProbabalisticTrend) · [sdca-raqqr](https://github.com/azank1/sdca-raqqr) · [strategy-builder-ai](https://github.com/azank1/strategy-builder-ai) · [notion-mcp](https://github.com/azank1/notion-mcp) · [claude-agent](https://github.com/azank1/claude-agent)
+More: [RP2A](https://github.com/azank1/restaurant-provider-to-agent)
 
 ### Measured
 
@@ -103,6 +100,6 @@ filters and edit your worldview for you. Don't accept the patch.
 
 ---
 
-Working on agent runtimes, protocol bridges or verification? [Open an issue on Metaorcha](https://github.com/solvent-labs-org/metaorcha/issues) or [email me](mailto:azanhyder49@gmail.com).
+Working on agent runtimes, protocol bridges or verification? [Open an issue on Metaorcha](https://github.com/solvent-labs-org/metaorcha/issues).
 
-<sub>[azanhyder-port.vercel.app](https://azanhyder-port.vercel.app) · [metaorcha.ai](https://metaorcha.ai) · [dev.to](https://dev.to/azankhyder) · [X](https://x.com/azankhyder) · [LinkedIn](https://www.linkedin.com/in/azan-hyder-8aa58b408/) · [azanhyder49@gmail.com](mailto:azanhyder49@gmail.com) · *It's all relative.*</sub>
+<sub>[metaorcha.ai](https://metaorcha.ai) · [X](https://x.com/azankhyder) · *It's all relative.*</sub>
