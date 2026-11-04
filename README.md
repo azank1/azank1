@@ -1,4 +1,4 @@
-**Production systems engineer. I build AI agents and the systems that check them.**
+**AI agent & Infrastructure engineer. building loops, graphs and harnesses for autonomous production and scaling using AI**
 I turn research questions into working software: measurable, inspectable, and useful past the demo.
 
 [![Metaorcha](https://img.shields.io/badge/building-metaorcha.ai-2b2b2b?style=flat-square&labelColor=181818)](https://metaorcha.ai)
